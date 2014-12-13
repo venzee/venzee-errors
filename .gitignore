@@ -1,0 +1,6 @@
+*.log
+/node_modules/*
+.tm_properties
+
+!/node_modules/venzee-logger
+/node_modules/venzee-logger/node_modules/*

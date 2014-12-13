@@ -1,0 +1,23 @@
+{
+  "name": "venzee-error-handler",
+  "version": "1.0.0",
+  "description": "Handle Venzee specific errors as well as known HTTP responses.",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:venzee/venzee-error-handler.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.10.2",
+    "eslint-plugin-nodeca": "^1.0.3",
+    "express": "^4.10.6",
+    "http-errors": "^1.2.8",
+    "mocha": "^2.0.1",
+    "supertest": "^0.15.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks"
+  }
+}
