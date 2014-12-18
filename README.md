@@ -69,6 +69,7 @@ You'll be prompted for an error code string, and a human-friendly message. The c
 ##### logger
 
 Type: `String` _optional_
+
 Default: `venzee-logger`
 
 Name of a logging module to use internally. For example, a value of `winston` will load the winston log package.
@@ -76,6 +77,7 @@ Name of a logging module to use internally. For example, a value of `winston` wi
 #### codes
 
 Type: `String` _optional_
+
 Default: `./codes.json` _codes.json from inside `lib` directory_
 
 File path to your own custom error codes.
