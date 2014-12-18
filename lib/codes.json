@@ -8,6 +8,13 @@
       "fr-CA": "Le courriel fournit existe déjà"
     }
   },
+  "RefreshTokenRequired": {
+    "code": 4000004,
+    "error": "refresh_token_required",
+    "description": {
+      "en": "The refresh token is required"
+    }
+  },
   "Unknown": {
     "code": 5000001,
     "error": "unknown",
@@ -20,6 +27,13 @@
     "error": "unknown_error_id",
     "description": {
       "en": "Unknown error id"
+    }
+  },
+  "UserCredentialsRequired": {
+    "code": 4000003,
+    "error": "user_credentials_required",
+    "description": {
+      "en": "The user credentials are required"
     }
   },
   "UsernameUnavailable": {
