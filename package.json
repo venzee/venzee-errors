@@ -1,6 +1,6 @@
 {
   "name": "venzee-error-handler",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Handle Venzee specific errors as well as known HTTP responses.",
   "main": "index.js",
   "private": true,
@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "negotiator": "^0.4.9",
-    "options": "0.0.6"
+    "options": "0.0.6",
+    "statuses": "^1.2.0"
   },
   "devDependencies": {
     "change-case": "^2.1.5",

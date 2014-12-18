@@ -7,7 +7,7 @@ The bulk of our Venzee custom errors will be in the 4xx HTTP status code space, 
 ## Installation
 
 ```sh
-npm install venzee/venzee-error-handler --save
+$ npm install venzee/venzee-error-handler --save
 ```
 
 ## Usage
