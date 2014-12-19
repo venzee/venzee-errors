@@ -5,6 +5,7 @@ module.exports = function (grunt) {
   grunt.registerTask('update-codes',
     'Update the known Venzee error codes.', function () {
 
+      var newStatusCode = grunt.config('vcodes.options.statuscode');
       var newName = grunt.config('vcodes.options.name');
       var newMessage = grunt.config('vcodes.options.message');
 
@@ -18,10 +19,18 @@ module.exports = function (grunt) {
 
         var codes = grunt.file.readJSON('./lib/codes.json');
 
-        var nextCode = require('../').next400(codes);
+        var statusCode = newStatusCode - 0;
+        var nextCode;
+        if (statusCode < 500) {
+          nextCode = require('../').next400(codes);
+        } else {
+          nextCode = require('../').next500(codes);
+        }
+
 
         // add the code to the list!
         codes[bumpy] = {
+          status: statusCode,
           code: nextCode,
           error: snake,
           description: {

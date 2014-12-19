@@ -1,5 +1,14 @@
 {
+  "AccessTokenExpired": {
+    "status": 401,
+    "code": 4000005,
+    "error": "access_token_expired",
+    "description": {
+      "en": "Your access token has expired. You can request a new access token with refresh token. "
+    }
+  },
   "EmailAlreadyInUse": {
+    "status": 409,
     "code": 4000001,
     "error": "email_already_in_use",
     "description": {
@@ -9,6 +18,7 @@
     }
   },
   "RefreshTokenRequired": {
+    "status": 400,
     "code": 4000004,
     "error": "refresh_token_required",
     "description": {
@@ -16,6 +26,7 @@
     }
   },
   "Unknown": {
+    "status": 500,
     "code": 5000001,
     "error": "unknown",
     "description": {
@@ -23,6 +34,7 @@
     }
   },
   "UnknownErrorId": {
+    "status": 500,
     "code": 5000002,
     "error": "unknown_error_id",
     "description": {
@@ -30,6 +42,7 @@
     }
   },
   "UserCredentialsRequired": {
+    "status": 400,
     "code": 4000003,
     "error": "user_credentials_required",
     "description": {
@@ -37,6 +50,7 @@
     }
   },
   "UsernameUnavailable": {
+    "status": 409,
     "code": 4000002,
     "error": "username_unavailable",
     "description": {

@@ -15,3 +15,17 @@ exports.next400 = function(codes) {
   var max = Math.max.apply(null, fourSeries);
   return max + 1;
 };
+
+// next available 500-space code
+exports.next500 = function(codes) {
+  var fiveSeries = [];
+
+  for (var k in codes) {
+    if (codes[k].code >= 5000000) {
+      fiveSeries.push(codes[k].code);
+    }
+  }
+
+  var max = Math.max.apply(null, fiveSeries);
+  return max + 1;
+};
