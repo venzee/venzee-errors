@@ -82,3 +82,7 @@ Default: `./codes.json` _codes.json from inside `lib` directory_
 
 File path to your own custom error codes.
 
+#### Reference
+http status code: http://www.restapitutorial.com/httpstatuscodes.html
+
+
