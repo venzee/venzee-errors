@@ -56,5 +56,13 @@
     "description": {
       "en": "The username you requested is unavailable."
     }
+  },
+  "ValidationError": {
+    "status": 422,
+    "code": 4000006,
+    "error": "validation_error",
+    "description": {
+      "en": "The model instance is not valid."
+    }
   }
 }
