@@ -17,6 +17,14 @@
       "fr-CA": "Le courriel fournit existe déjà"
     }
   },
+  "OrganizationUnavailable": {
+    "status": 422,
+    "code": null,
+    "error": "organization_unavailable",
+    "description": {
+      "en": "The organization name you requested is unavailable."
+    }
+  },
   "RefreshTokenRequired": {
     "status": 400,
     "code": 4000004,
@@ -60,10 +68,12 @@
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
+    "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "UNKNOWN": "Unknown",
     "UNKNOWN_ERROR_ID": "UnknownErrorId",
     "USER_CREDENTIALS_REQUIRED": "UserCredentialsRequired",
-    "USERNAME_UNAVAILABLE": "UsernameUnavailable"
+    "USERNAME_UNAVAILABLE": "UsernameUnavailable",
+    "CONSTANTS": "constants"
   }
 }
