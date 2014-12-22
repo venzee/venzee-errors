@@ -56,5 +56,14 @@
     "description": {
       "en": "The username you requested is unavailable."
     }
+  },
+  "constants": {
+    "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
+    "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
+    "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
+    "UNKNOWN": "Unknown",
+    "UNKNOWN_ERROR_ID": "UnknownErrorId",
+    "USER_CREDENTIALS_REQUIRED": "UserCredentialsRequired",
+    "USERNAME_UNAVAILABLE": "UsernameUnavailable"
   }
 }

@@ -1,56 +1,126 @@
-# venzee-error-handler
+# venzee-errors
 
-Handle Venzee-specific errors as well as HTTP errors.
-
-The bulk of our Venzee custom errors will be in the 4xx HTTP status code space, and in the 400xxxx space for our internal 4xx conditions.
+Generates Venzee-specific Error objects, and converts those that are less endowed to the Venzee Error Hotness.
 
 ## Installation
 
 ```sh
-$ npm install venzee/venzee-error-handler --save
+$ npm install venzee/venzee-errors --save
 ```
 
 ## Usage
 
-### Express middleware
+Generate a Venzee Error from scratch, based on the defined error codes in this package.
 
 ```js
-// in your server.js file or main application file
-var errorHandler = require('venzee-error-handler');
-// ...
-app.use(errorHandler(options));
+'use strict';
+var util = require('util');
+var venzeeError = require('venzee-errors');
+var E = venzeeError.E;
+
+var err = venzeeError(E.USERNAME_UNAVAILABLE);
+if (util.isError(err)) {
+  console.log('util.isError calls this an bona-fide error!');
+}
+
+// look at the error like an error response payload
+console.log(JSON.stringify(err.toBody(), null, 2));
 ```
 
------
-Pass the error along to the middleware like this:
-
-```js
-User.checkEmail = function(next) {
-  user.find({ where: { email: 'foo@example.com' }}, function(err, results) {
-    if (err) {
-  	  err.id = 'EmailAlreadyInUse';
-	  return next(err);
-    } else {
-	  return next();
-    }
-  });
-};
-```
-
-This will return a payload like this:
+**Output**
 
 ```json
 {
-	"status": 400,
-	"@context": "/contexts/Error.jsonld",
-	"@id": "/errors/EmailAlreadyInUse",
-	"code": 4000001,
-	"message": "The email address you provided is already in use.",
-	"stack": "..."
+  "error": {
+    "name": "UsernameUnavailable",
+    "message": "The username you requested is unavailable.",
+    "@context": "/contexts/Error.jsonld",
+    "@id": "/errors/UsernameUnavailableError",
+    "code": 4000002,
+    "statusDescription": "Conflict",
+    "status": 409,
+    "statusCode": 409
+  }
 }
 ```
 
-**Note:** `stack` will only be included in non-production environments.
+## What about complex errors?
+
+We retain all that, while adding our sugar. A regular JSON representation of a `loopback-datasource-juggler` ValidationError looks like this:
+
+```json
+{
+  "error": {
+    "name": "ValidationError",
+    "message": "The `user` instance is not valid. Details: `firstName` can't be blank; `lastName` can't be blank.",
+    "statusCode": 422,
+    "details": {
+      "context": "user",
+      "codes": {
+        "firstName": [
+          "presence"
+        ],
+        "lastName": [
+          "presence"
+        ]
+      },
+      "messages": {
+        "firstName": [
+          "can't be blank"
+        ],
+        "lastName": [
+          "can't be blank"
+        ]
+      }
+    }
+  }
+}
+```
+
+Process that error as a Venzee Error, and you get this:
+
+```js
+var err = venzeeError(e);
+console.log(JSON.stringify(err.toBody(), null, 2));
+```
+
+**Output:**
+
+```json
+{
+  "error": {
+    "name": "ValidationError",
+    "message": "The `user` instance is not valid. Details: `firstName` can't be blank; `lastName` can't be blank.",
+    "@context": "/contexts/Error.jsonld",
+    "@id": "/errors/ValidationError",
+    "code": 4004220,
+    "statusDescription": "Unprocessable Entity",
+    "status": 422,
+    "statusCode": 422,
+    "details": {
+      "context": "user",
+      "codes": {
+        "firstName": [
+          "presence"
+        ],
+        "lastName": [
+          "presence"
+        ]
+      },
+      "messages": {
+        "firstName": [
+          "can't be blank"
+        ],
+        "lastName": [
+          "can't be blank"
+        ]
+      }
+    }
+  }
+}
+```
+
+A few more examples await you in `example.js`!
 
 
 -----
