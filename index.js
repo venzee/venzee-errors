@@ -1,10 +1,30 @@
 'use strict';
 var util = require('util');
+var path = require('path');
 var statuses = require('statuses');
-var codes = require('./codes');
 var titleCase = require('title-case');
 var pascalCase = require('pascal-case');
 var debug = require('debug')('venzee-errors');
+
+/**
+ *
+ * Support a file called `venzee-error-codes.json` at the same location
+ * of the file which included the module.
+ *
+ * In the case of LoopBack, if you require venzee-errors in server/server.js,
+ * a file located at server/venzee-error-codes.json would be used instead
+ * of the bundled codes.json file.
+ *
+ */
+
+var customCodesPath = path.join(path.dirname(require.main.filename), 'venzee-error-codes');
+debug('attempting to load custom error codes from %s', customCodesPath);
+var codes;
+try {
+  codes = require(customCodesPath);
+} catch(e) {
+  codes = require('./codes');
+}
 
 var venzeeErrorData = function venzeeErrorData(str) {
 
@@ -69,6 +89,7 @@ var venzeeErrors = function venzeeErrors(str) {
     }
     errObj['@context'] = '/contexts/Error.jsonld';
 
+    // let's not have any SomethingErrorError errors generated.
     if (atId.substr(-5) !== 'Error') {
       atId += 'Error';
     }
