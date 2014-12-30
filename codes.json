@@ -17,6 +17,14 @@
       "fr-CA": "Le courriel fournit existe déjà"
     }
   },
+  "Oauth2Error": {
+    "status": 400,
+    "code": 1,
+    "error": "oauth_2_error",
+    "description": {
+      "en": "Error on get Authentication Token"
+    }
+  },
   "OrganizationUnavailable": {
     "status": 422,
     "code": null,
@@ -68,6 +76,7 @@
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
+    "OAUTH_2_ERROR": "Oauth2Error",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "UNKNOWN": "Unknown",
