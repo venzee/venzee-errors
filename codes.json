@@ -17,6 +17,14 @@
       "fr-CA": "Le courriel fournit existe déjà"
     }
   },
+  "EntityNotFound": {
+    "status": 404,
+    "code": 1,
+    "error": "entity_not_found",
+    "description": {
+      "en": "Entity not found in database"
+    }
+  },
   "OauthError": {
     "status": 400,
     "code": 4000006,
@@ -76,7 +84,7 @@
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
-    "OAUTH_2_ERROR": "Oauth2Error",
+    "ENTITY_NOT_FOUND": "EntityNotFound",
     "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
