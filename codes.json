@@ -12,30 +12,30 @@
     "code": 4000001,
     "error": "email_already_in_use",
     "description": {
-      "en": "The email address you provided is already in use.",
+      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
       "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
       "fr-CA": "Le courriel fournit existe déjà"
     }
   },
   "EntityNotFound": {
     "status": 404,
-    "code": 1,
+    "code": 4000008,
     "error": "entity_not_found",
     "description": {
       "en": "Entity not found in database"
     }
   },
-  "OauthError": {
-    "status": 400,
-    "code": 4000006,
-    "error": "oauth_error",
+  "UserAlreadyBelongsToOrg": {
+    "status":400,
+    "code": 4000009,
+    "error": "user_already_belongsto_org",
     "description": {
-      "en": "Error on get Authentication Token"
+      "en": "The user has already been a member of an organization. A user can't create/belongs to multiple companies."
     }
   },
   "OrganizationUnavailable": {
-    "status": 422,
-    "code": null,
+    "status":409,
+    "code": 4000006,
     "error": "organization_unavailable",
     "description": {
       "en": "The organization name you requested is unavailable."
@@ -81,17 +81,26 @@
       "en": "The username you requested is unavailable."
     }
   },
+  "NameContainSpecialChar": {
+    "status": 400,
+    "code": 4000007,
+    "error": "name_contain_special_char",
+    "description": {
+      "en": "The name should only contains the letter, number, -, _, ."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
     "ENTITY_NOT_FOUND": "EntityNotFound",
-    "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "UNKNOWN": "Unknown",
     "UNKNOWN_ERROR_ID": "UnknownErrorId",
     "USER_CREDENTIALS_REQUIRED": "UserCredentialsRequired",
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
-    "CONSTANTS": "constants"
+    "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
+    "CONSTANTS": "constants",
+    "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg"
   }
 }
