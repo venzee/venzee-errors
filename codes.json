@@ -41,6 +41,18 @@
       "en": "The organization name you requested is unavailable."
     }
   },
+  "OauthError": {
+    "status": 400,
+    /* TODO: udpate this duplicate error code 4000006, it happens when adding new error code
+     from proxy-server to venzee-error codes.json while being replaced by copying venzee-error-codes
+     to codes.json
+     */
+    "code": 4000006,
+    "error": "oauth_error",
+    "description": {
+      "en": "Error on get Authentication Token"
+    }
+  },
   "RefreshTokenRequired": {
     "status": 400,
     "code": 4000004,
@@ -101,6 +113,7 @@
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "CONSTANTS": "constants",
-    "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg"
+    "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg",
+    "OAUTH_ERROR": "OauthError"
   }
 }
