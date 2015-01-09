@@ -43,10 +43,6 @@
   },
   "OauthError": {
     "status": 400,
-    /* TODO: udpate this duplicate error code 4000006, it happens when adding new error code
-     from proxy-server to venzee-error codes.json while being replaced by copying venzee-error-codes
-     to codes.json
-     */
     "code": 4000006,
     "error": "oauth_error",
     "description": {
