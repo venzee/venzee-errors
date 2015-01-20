@@ -97,6 +97,14 @@
       "en": "The name should only contains the letter, number, -, _, ."
     }
   },
+  "FileNotAllowed":{
+    "status":400,
+    "code": 40000011,
+    "error": "file_type_not_allowed",
+    "description": {
+      "en": "The file that you are trying to upload is not allowed on this request."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -110,6 +118,7 @@
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "CONSTANTS": "constants",
     "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg",
-    "OAUTH_ERROR": "OauthError"
+    "OAUTH_ERROR": "OauthError",
+    "FILE_NOT_ALLOWED" : "FileNotAllowed"
   }
 }
