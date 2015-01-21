@@ -1,62 +1,3 @@
-{
-  "AccessTokenExpired": {
-    "status": 401,
-    "code": 4000005,
-    "error": "access_token_expired",
-    "description": {
-      "en": "Your access token has expired. You can request a new access token with refresh token. "
-    }
-  },
-  "EmailAlreadyInUse": {
-    "status": 409,
-    "code": 4000001,
-    "error": "email_already_in_use",
-    "description": {
-      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
-      "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
-      "fr-CA": "Le courriel fournit existe déjà"
-    }
-  },
-  "EntityNotFound": {
-    "status": 404,
-    "code": 4000008,
-    "error": "entity_not_found",
-    "description": {
-      "en": "Entity not found in database"
-    }
-  },
-  "UserAlreadyBelongsToOrg": {
-    "status":400,
-    "code": 4000009,
-    "error": "user_already_belongsto_org",
-    "description": {
-      "en": "The user has already been a member of an organization. A user can't create/belongs to multiple companies."
-    }
-  },
-  "OrganizationUnavailable": {
-    "status":409,
-    "code": 4000006,
-    "error": "organization_unavailable",
-    "description": {
-      "en": "The organization name you requested is unavailable."
-    }
-  },
-  "OauthError": {
-    "status": 400,
-    "code": 4000006,
-    "error": "oauth_error",
-    "description": {
-      "en": "Error on get Authentication Token"
-    }
-  },
-  "RefreshTokenRequired": {
-    "status": 400,
-    "code": 4000004,
-    "error": "refresh_token_required",
-    "description": {
-      "en": "The refresh token is required"
-    }
-  },
   "Unknown": {
     "status": 500,
     "code": 5000001,
@@ -73,12 +14,14 @@
       "en": "Unknown error id"
     }
   },
-  "UserCredentialsRequired": {
-    "status": 400,
-    "code": 4000003,
-    "error": "user_credentials_required",
+  "EmailAlreadyInUse": {
+    "status": 409,
+    "code": 4000001,
+    "error": "email_already_in_use",
     "description": {
-      "en": "The user credentials are required"
+      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
+      "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
+      "fr-CA": "Le courriel fournit existe déjà"
     }
   },
   "UsernameUnavailable": {
@@ -89,12 +32,68 @@
       "en": "The username you requested is unavailable."
     }
   },
+  "UserCredentialsRequired": {
+    "status": 400,
+    "code": 4000003,
+    "error": "user_credentials_required",
+    "description": {
+      "en": "The user credentials are required"
+    }
+  },
+  "RefreshTokenRequired": {
+    "status": 400,
+    "code": 4000004,
+    "error": "refresh_token_required",
+    "description": {
+      "en": "The refresh token is required"
+    }
+  },
+  "AccessTokenExpired": {
+    "status": 401,
+    "code": 4000005,
+    "error": "access_token_expired",
+    "description": {
+      "en": "Your access token has expired. You can request a new access token with refresh token. "
+    }
+  },
+  "OrganizationUnavailable": {
+    "status":409,
+    "code": 4000006,
+    "error": "organization_unavailable",
+    "description": {
+      "en": "The organization name you requested is unavailable."
+    }
+  },
   "NameContainSpecialChar": {
     "status": 400,
     "code": 4000007,
     "error": "name_contain_special_char",
     "description": {
       "en": "The name should only contains the letter, number, -, _, ."
+    }
+  },
+  "ResourceNotFound": {
+    "status": 404,
+    "code": 4000008,
+    "error": "resource_not_exist",
+    "description": {
+      "en": "The requested resource does not exist."
+    }
+  },
+  "UserAlreadyBelongsToOrg": {
+    "status":400,
+    "code": 4000009,
+    "error": "user_already_belongsto_org",
+    "description": {
+      "en": "The user is already a member of an organization. A user can't create/belongs to multiple organizations."
+    }
+  },
+  "OauthError": {
+    "status": 400,
+    "code": 4000010,
+    "error": "oauth_error",
+    "description": {
+      "en": "Error on get Authentication Token"
     }
   },
   "FileNotAllowed":{
@@ -105,10 +104,18 @@
       "en": "The file that you are trying to upload is not allowed on this request."
     }
   },
+  "CatalogNameAlreadyExist": {
+    "status": 409,
+    "code": 4000012,
+    "error": "catalog_name_already_exist",
+    "description": {
+      "en": "The catalog name you provide is already existed. Please provide a new catalog name."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
-    "ENTITY_NOT_FOUND": "EntityNotFound",
+    "RESOURCE_NOT_FOUND": "ResourceNotFound",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "UNKNOWN": "Unknown",
@@ -119,6 +126,5 @@
     "CONSTANTS": "constants",
     "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg",
     "OAUTH_ERROR": "OauthError",
-    "FILE_NOT_ALLOWED" : "FileNotAllowed"
+    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist"
   }
-}
