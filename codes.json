@@ -1,3 +1,4 @@
+{
   "Unknown": {
     "status": 500,
     "code": 5000001,
@@ -128,3 +129,4 @@
     "OAUTH_ERROR": "OauthError",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist"
   }
+}
