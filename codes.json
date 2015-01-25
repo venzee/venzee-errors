@@ -113,6 +113,14 @@
       "en": "The catalog name you provide is already existed. Please provide a new catalog name."
     }
   },
+  "SkuAlreadyExist": {
+    "status": 410,
+    "code": 4000013,
+    "error": "sku_already_exist",
+    "description": {
+      "en": "The sku you provided already exists. Please provide a different sku."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -127,6 +135,7 @@
     "CONSTANTS": "constants",
     "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg",
     "OAUTH_ERROR": "OauthError",
-    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist"
+    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
+    "SKU_ALREADY_EXIST": "SkuAlreadyExist"
   }
 }
