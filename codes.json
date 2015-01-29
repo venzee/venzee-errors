@@ -121,6 +121,14 @@
       "en": "The sku you provided already exists. Please provide a different sku."
     }
   },
+  "EmptyCsvFile": {
+    "status": 400,
+    "code": 4000014,
+    "error": "empty_csv_file",
+    "description": {
+      "en": "The CSV file you provided is empty. Please provide a file with information."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -137,6 +145,7 @@
     "OAUTH_ERROR": "OauthError",
     "FILE_NOT_ALLOWED" : "FileNotAllowed",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
-    "SKU_ALREADY_EXIST": "SkuAlreadyExist"
+    "SKU_ALREADY_EXIST": "SkuAlreadyExist",
+    "EMPTY_CSV_FILE": "EmptyCsvFile"
   }
 }
