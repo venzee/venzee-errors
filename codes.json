@@ -129,6 +129,14 @@
       "en": "The CSV file you provided is empty. Please provide a file with information."
     }
   },
+  "VariantChainedCSV": {
+    "status": 400,
+    "code": 4000015,
+    "error": "variant_chained_in_csv_file",
+    "description": {
+      "en": "The CSV file you provided contains a chained parentId."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -146,6 +154,7 @@
     "FILE_NOT_ALLOWED" : "FileNotAllowed",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
-    "EMPTY_CSV_FILE": "EmptyCsvFile"
+    "EMPTY_CSV_FILE": "EmptyCsvFile",
+    "VARIANT_CHAINED_CSV": "VariantChainedCSV"
   }
 }
