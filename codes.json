@@ -145,6 +145,14 @@
       "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
     }
   },
+  "InvalidDate": {
+    "status": 400,
+    "code": 4000017,
+    "error": "invalid_date_fortmat",
+    "description": {
+      "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -164,6 +172,7 @@
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
-    "INVALID_PRODUCT_STATUS": "InvalidProductStatus"
+    "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
+    "INVALID_DATE": "InvalidDate"
   }
 }
