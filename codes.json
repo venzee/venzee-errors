@@ -153,6 +153,14 @@
       "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
     }
   },
+  "InvalidCost": {
+    "status": 400,
+    "code": 4000018,
+    "error": "invalid_cost_value",
+    "description": {
+      "en": "The cost value you provided is not allowed"
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -173,6 +181,7 @@
     "EMPTY_CSV_FILE": "EmptyCsvFile",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
-    "INVALID_DATE": "InvalidDate"
+    "INVALID_DATE": "InvalidDate",
+    "INVALID_COST": "InvalidCost"
   }
 }
