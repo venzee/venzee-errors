@@ -137,6 +137,14 @@
       "en": "The CSV file you provided contains a chained parentId."
     }
   },
+  "InvalidProductStatus": {
+    "status": 400,
+    "code": 4000016,
+    "error": "invalid_product_status",
+    "description": {
+      "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
@@ -155,6 +163,7 @@
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
-    "VARIANT_CHAINED_CSV": "VariantChainedCSV"
+    "VARIANT_CHAINED_CSV": "VariantChainedCSV",
+    "INVALID_PRODUCT_STATUS": "InvalidProductStatus"
   }
 }
