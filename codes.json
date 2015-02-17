@@ -91,7 +91,7 @@
   },
   "ParentProductNotExist": {
     "status": 409,
-    "code": null,
+    "code": 4090016,
     "error": "parent_product_not_exist",
     "description": {
       "en": "The parent product specified not exist. Please set a valid parent product for the new variant product."
@@ -99,7 +99,7 @@
   },
   "ProductUnavailableAsParent": {
     "status": 409,
-    "code": 1,
+    "code": 4090017,
     "error": "product_unavailable_as_parent",
     "description": {
       "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
