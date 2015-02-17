@@ -1,4 +1,134 @@
 {
+  "AccessTokenExpired": {
+    "status": 401,
+    "code": 4000005,
+    "error": "access_token_expired",
+    "description": {
+      "en": "Your access token has expired. You can request a new access token with refresh token. "
+    }
+  },
+  "CatalogNameAlreadyExist": {
+    "status": 409,
+    "code": 4000012,
+    "error": "catalog_name_already_exist",
+    "description": {
+      "en": "The catalog name you provide is already existed. Please provide a new catalog name."
+    }
+  },
+  "EmailAlreadyInUse": {
+    "status": 409,
+    "code": 4000001,
+    "error": "email_already_in_use",
+    "description": {
+      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
+      "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
+      "fr-CA": "Le courriel fournit existe déjà"
+    }
+  },
+  "EmptyCsvFile": {
+    "status": 400,
+    "code": 4000014,
+    "error": "empty_csv_file",
+    "description": {
+      "en": "The CSV file you provided is empty. Please provide a file with information."
+    }
+  },
+  "FileNotAllowed": {
+    "status": 400,
+    "code": 40000011,
+    "error": "file_type_not_allowed",
+    "description": {
+      "en": "The file that you are trying to upload is not allowed on this request."
+    }
+  },
+  "InvalidCost": {
+    "status": 400,
+    "code": 4000018,
+    "error": "invalid_cost_value",
+    "description": {
+      "en": "The cost value you provided is not allowed"
+    }
+  },
+  "InvalidDate": {
+    "status": 400,
+    "code": 4000017,
+    "error": "invalid_date_fortmat",
+    "description": {
+      "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
+    }
+  },
+  "InvalidProductStatus": {
+    "status": 400,
+    "code": 4000016,
+    "error": "invalid_product_status",
+    "description": {
+      "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
+    }
+  },
+  "NameContainSpecialChar": {
+    "status": 400,
+    "code": 4000007,
+    "error": "name_contain_special_char",
+    "description": {
+      "en": "The name should only contains the letter, number, -, _, ."
+    }
+  },
+  "OauthError": {
+    "status": 400,
+    "code": 4000010,
+    "error": "oauth_error",
+    "description": {
+      "en": "Error on get Authentication Token"
+    }
+  },
+  "OrganizationUnavailable": {
+    "status": 409,
+    "code": 4000006,
+    "error": "organization_unavailable",
+    "description": {
+      "en": "The organization name you requested is unavailable."
+    }
+  },
+  "ParentProductNotExist": {
+    "status": 409,
+    "code": null,
+    "error": "parent_product_not_exist",
+    "description": {
+      "en": "The parent product specified not exist. Please set a valid parent product for the new variant product."
+    }
+  },
+  "ProductUnavailableAsParent": {
+    "status": 409,
+    "code": 1,
+    "error": "product_unavailable_as_parent",
+    "description": {
+      "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
+    }
+  },
+  "RefreshTokenRequired": {
+    "status": 400,
+    "code": 4000004,
+    "error": "refresh_token_required",
+    "description": {
+      "en": "The refresh token is required"
+    }
+  },
+  "ResourceNotFound": {
+    "status": 404,
+    "code": 4000008,
+    "error": "resource_not_exist",
+    "description": {
+      "en": "The requested resource does not exist."
+    }
+  },
+  "SkuAlreadyExist": {
+    "status": 410,
+    "code": 4000013,
+    "error": "sku_already_exist",
+    "description": {
+      "en": "The sku you provided already exists. Please provide a different sku."
+    }
+  },
   "Unknown": {
     "status": 500,
     "code": 5000001,
@@ -15,22 +145,12 @@
       "en": "Unknown error id"
     }
   },
-  "EmailAlreadyInUse": {
-    "status": 409,
-    "code": 4000001,
-    "error": "email_already_in_use",
+  "UserAlreadyBelongsToOrg": {
+    "status": 400,
+    "code": 4000009,
+    "error": "user_already_belongsto_org",
     "description": {
-      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
-      "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
-      "fr-CA": "Le courriel fournit existe déjà"
-    }
-  },
-  "UsernameUnavailable": {
-    "status": 409,
-    "code": 4000002,
-    "error": "username_unavailable",
-    "description": {
-      "en": "The username you requested is unavailable."
+      "en": "The user is already a member of an organization. A user can't create/belongs to multiple organizations."
     }
   },
   "UserCredentialsRequired": {
@@ -41,92 +161,12 @@
       "en": "The user credentials are required"
     }
   },
-  "RefreshTokenRequired": {
-    "status": 400,
-    "code": 4000004,
-    "error": "refresh_token_required",
-    "description": {
-      "en": "The refresh token is required"
-    }
-  },
-  "AccessTokenExpired": {
-    "status": 401,
-    "code": 4000005,
-    "error": "access_token_expired",
-    "description": {
-      "en": "Your access token has expired. You can request a new access token with refresh token. "
-    }
-  },
-  "OrganizationUnavailable": {
-    "status":409,
-    "code": 4000006,
-    "error": "organization_unavailable",
-    "description": {
-      "en": "The organization name you requested is unavailable."
-    }
-  },
-  "NameContainSpecialChar": {
-    "status": 400,
-    "code": 4000007,
-    "error": "name_contain_special_char",
-    "description": {
-      "en": "The name should only contains the letter, number, -, _, ."
-    }
-  },
-  "ResourceNotFound": {
-    "status": 404,
-    "code": 4000008,
-    "error": "resource_not_exist",
-    "description": {
-      "en": "The requested resource does not exist."
-    }
-  },
-  "UserAlreadyBelongsToOrg": {
-    "status":400,
-    "code": 4000009,
-    "error": "user_already_belongsto_org",
-    "description": {
-      "en": "The user is already a member of an organization. A user can't create/belongs to multiple organizations."
-    }
-  },
-  "OauthError": {
-    "status": 400,
-    "code": 4000010,
-    "error": "oauth_error",
-    "description": {
-      "en": "Error on get Authentication Token"
-    }
-  },
-  "FileNotAllowed":{
-    "status":400,
-    "code": 40000011,
-    "error": "file_type_not_allowed",
-    "description": {
-      "en": "The file that you are trying to upload is not allowed on this request."
-    }
-  },
-  "CatalogNameAlreadyExist": {
+  "UsernameUnavailable": {
     "status": 409,
-    "code": 4000012,
-    "error": "catalog_name_already_exist",
+    "code": 4000002,
+    "error": "username_unavailable",
     "description": {
-      "en": "The catalog name you provide is already existed. Please provide a new catalog name."
-    }
-  },
-  "SkuAlreadyExist": {
-    "status": 410,
-    "code": 4000013,
-    "error": "sku_already_exist",
-    "description": {
-      "en": "The sku you provided already exists. Please provide a different sku."
-    }
-  },
-  "EmptyCsvFile": {
-    "status": 400,
-    "code": 4000014,
-    "error": "empty_csv_file",
-    "description": {
-      "en": "The CSV file you provided is empty. Please provide a file with information."
+      "en": "The username you requested is unavailable."
     }
   },
   "VariantChainedCSV": {
@@ -137,51 +177,29 @@
       "en": "The CSV file you provided contains a chained parentId."
     }
   },
-  "InvalidProductStatus": {
-    "status": 400,
-    "code": 4000016,
-    "error": "invalid_product_status",
-    "description": {
-      "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
-    }
-  },
-  "InvalidDate": {
-    "status": 400,
-    "code": 4000017,
-    "error": "invalid_date_fortmat",
-    "description": {
-      "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
-    }
-  },
-  "InvalidCost": {
-    "status": 400,
-    "code": 4000018,
-    "error": "invalid_cost_value",
-    "description": {
-      "en": "The cost value you provided is not allowed"
-    }
-  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
+    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
-    "RESOURCE_NOT_FOUND": "ResourceNotFound",
+    "EMPTY_CSV_FILE": "EmptyCsvFile",
+    "FILE_NOT_ALLOWED": "FileNotAllowed",
+    "INVALID_COST": "InvalidCost",
+    "INVALID_DATE": "InvalidDate",
+    "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
+    "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
+    "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
+    "PARENT_PRODUCT_NOT_EXIST": "ParentProductNotExist",
+    "PRODUCT_UNAVAILABLE_AS_PARENT": "ProductUnavailableAsParent",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
+    "RESOURCE_NOT_FOUND": "ResourceNotFound",
+    "SKU_ALREADY_EXIST": "SkuAlreadyExist",
     "UNKNOWN": "Unknown",
     "UNKNOWN_ERROR_ID": "UnknownErrorId",
+    "USER_ALREADY_BELONGS_TO_ORG": "UserAlreadyBelongsToOrg",
     "USER_CREDENTIALS_REQUIRED": "UserCredentialsRequired",
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
-    "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
-    "CONSTANTS": "constants",
-    "USER_ALREADY_BELONGSTO_ORG": "UserAlreadyBelongsToOrg",
-    "OAUTH_ERROR": "OauthError",
-    "FILE_NOT_ALLOWED" : "FileNotAllowed",
-    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
-    "SKU_ALREADY_EXIST": "SkuAlreadyExist",
-    "EMPTY_CSV_FILE": "EmptyCsvFile",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
-    "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
-    "INVALID_DATE": "InvalidDate",
-    "INVALID_COST": "InvalidCost"
+    "CONSTANTS": "constants"
   }
 }
