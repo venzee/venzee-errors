@@ -185,6 +185,14 @@
       "en": "Thev file you provided is too long."
     }
   },
+  "ExceededImageNumberPerProduct": {
+    "status": 413,
+    "code": 4000020,
+    "error": "image_number_exceeded",
+    "description": {
+      "en": "The number of images provided exceeds the number permitted for a single product."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -209,6 +217,7 @@
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
+    "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct"
     "CONSTANTS": "constants"
   }
 }
