@@ -217,7 +217,7 @@
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
-    "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct"
+    "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
     "CONSTANTS": "constants"
   }
 }
