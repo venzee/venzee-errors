@@ -187,10 +187,18 @@
   },
   "ExceededImageNumberPerProduct": {
     "status": 413,
-    "code": 4000020,
+    "code": 4000021,
     "error": "image_number_exceeded",
     "description": {
       "en": "The number of images provided exceeds the number permitted for a single product."
+    }
+  },
+  "UnknownCSVError" : {
+    "status": 413,
+    "code": 4000022,
+    "error": "unknown_csv_error",
+    "description": {
+      "en": "The was an unknown error in the csv upload process."
     }
   },
   "constants": {
@@ -218,6 +226,7 @@
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
     "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
+    "UNKNOWN_CSV_ERROR": "UnknownCSVError",
     "CONSTANTS": "constants"
   }
 }
