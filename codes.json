@@ -201,6 +201,22 @@
       "en": "The was an unknown error in the csv upload process."
     }
   },
+  "MissingSrcMapping": {
+    "status": 404,
+    "code": 4000023,
+    "error": "missing_src_mapping",
+    "description": {
+      "en": "The mapping rules for this catalog do not exist."
+    }
+  },
+  "AttributesDoNotMatch": {
+    "status": 400,
+    "code": 4000024,
+    "error": "missing_src_mapping",
+    "description": {
+      "en": "The mapping rules for this catalog do not exist."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -227,6 +243,8 @@
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
     "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
     "UNKNOWN_CSV_ERROR": "UnknownCSVError",
+    "MISSING_SRC_MAPPING": "MissingSrcMapping",
+    "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
     "CONSTANTS": "constants"
   }
 }
