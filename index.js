@@ -17,14 +17,7 @@ var debug = require('debug')('venzee-errors');
  *
  */
 
-var customCodesPath = path.join(path.dirname(require.main.filename), 'venzee-error-codes');
-debug('attempting to load custom error codes from %s', customCodesPath);
-var codes;
-try {
-  codes = require(customCodesPath);
-} catch(e) {
-  codes = require('./codes');
-}
+codes = require('./codes');
 
 var venzeeErrorData = function venzeeErrorData(str) {
 
