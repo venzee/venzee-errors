@@ -17,7 +17,7 @@ var debug = require('debug')('venzee-errors');
  *
  */
 
-codes = require('./codes');
+var codes = require('./codes');
 
 var venzeeErrorData = function venzeeErrorData(str) {
 
