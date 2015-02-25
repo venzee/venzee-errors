@@ -217,6 +217,14 @@
       "en": "The mapping rules for this catalog do not exist."
     }
   },
+  "CsvHeaderExtraction":{
+    "status": 400,
+    "code": 4000025,
+    "error": "csv_header_extraction",
+    "description": {
+      "en": "Error on try to exctract the headers from the CSV provided."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -245,6 +253,7 @@
     "UNKNOWN_CSV_ERROR": "UnknownCSVError",
     "MISSING_SRC_MAPPING": "MissingSrcMapping",
     "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
+    "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
     "CONSTANTS": "constants"
   }
 }
