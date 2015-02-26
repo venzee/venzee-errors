@@ -222,7 +222,15 @@
     "code": 4000025,
     "error": "csv_header_extraction",
     "description": {
-      "en": "Error on try to exctract the headers from the CSV provided."
+      "en": "Error on try to extract the headers from the CSV provided."
+    }
+  },
+  "CsvMissingColumn":{
+    "status": 400,
+    "code": 4000026,
+    "error": "csv_missing_column",
+    "description": {
+      "en": "Row doesn't have all the required columns defined by headers."
     }
   },
   "constants": {
@@ -254,6 +262,7 @@
     "MISSING_SRC_MAPPING": "MissingSrcMapping",
     "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
     "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
+    "CSV_MISSING_COLUMN": "CsvMissingColumn",
     "CONSTANTS": "constants"
   }
 }
