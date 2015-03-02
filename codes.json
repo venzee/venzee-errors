@@ -233,6 +233,14 @@
       "en": "Row doesn't have all the required columns defined by headers."
     }
   },
+  "InvalidEmail":{
+    "status": 400,
+    "code": 4000027,
+    "error": "invalid_email",
+    "description": {
+      "en": "The cost value you provided is not allowed"
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -241,6 +249,7 @@
     "FILE_NOT_ALLOWED": "FileNotAllowed",
     "INVALID_COST": "InvalidCost",
     "INVALID_DATE": "InvalidDate",
+    "INVALID_EMAIL": "InvalidEmail",
     "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "OAUTH_ERROR": "OauthError",
