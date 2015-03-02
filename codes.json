@@ -238,7 +238,15 @@
     "code": 4000027,
     "error": "invalid_email",
     "description": {
-      "en": "The cost value you provided is not allowed"
+      "en": "The cost value you provided is not allowed."
+    }
+  },
+  "CsvProductIdDuplicated":{
+    "status": 400,
+    "code": 4000028,
+    "error": "product_id_duplicated_in_csv_file",
+    "description": {
+      "en": "Product ID is duplicated into de CSV file."
     }
   },
   "constants": {
@@ -272,6 +280,7 @@
     "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
     "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
     "CSV_MISSING_COLUMN": "CsvMissingColumn",
+    "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
     "CONSTANTS": "constants"
   }
 }
