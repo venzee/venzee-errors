@@ -249,6 +249,14 @@
       "en": "Product ID is duplicated into de CSV file."
     }
   },
+  "InvitationInvalidToken":{
+    "status": 400,
+    "code": 4000029,
+    "error": "invitation_token_invalid",
+    "description": {
+      "en": "The token is invalid or doen't exist."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -281,6 +289,7 @@
     "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
     "CSV_MISSING_COLUMN": "CsvMissingColumn",
     "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
+    "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "CONSTANTS": "constants"
   }
 }
