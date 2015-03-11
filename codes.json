@@ -257,6 +257,14 @@
       "en": "The token is invalid or doen't exist."
     }
   },
+  "InvalidPartnership":{
+    "status": 400,
+    "code": 4000030,
+    "error": "invalid_partnership",
+    "description": {
+      "en": "There is not relationship between the User and Organization."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -290,6 +298,7 @@
     "CSV_MISSING_COLUMN": "CsvMissingColumn",
     "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
+    "INVALID_PARTNERSHIP": "InvalidPartnership",
     "CONSTANTS": "constants"
   }
 }
