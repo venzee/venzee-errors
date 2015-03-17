@@ -268,7 +268,7 @@
   "ArgumentsMissedDeletePartnership": {
     "error": "arguments_missed_delete_partnership",
     "name": "Error",
-    "code": 4090018,
+    "code": 4090031,
     "description": {
       "en": "At least you need pass one of this arguments: org, token"
     },
