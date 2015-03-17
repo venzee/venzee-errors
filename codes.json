@@ -271,7 +271,7 @@
     "code": 4090018,
     "description": {
       "en": "At least you need pass one of this arguments: org, token"
-    }
+    },
     "status": 400
   },
   "constants": {
