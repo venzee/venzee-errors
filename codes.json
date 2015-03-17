@@ -265,6 +265,15 @@
       "en": "There is not relationship between the User and Organization."
     }
   },
+  "ArgumentsMissedDeletePartnership": {
+    "error": "arguments_missed_delete_partnership",
+    "name": "Error",
+    "code": 4090018,
+    "description": {
+      "en": "At least you need pass one of this arguments: org, token"
+    }
+    "status": 400
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -299,6 +308,7 @@
     "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "INVALID_PARTNERSHIP": "InvalidPartnership",
+    "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
     "CONSTANTS": "constants"
   }
 }
