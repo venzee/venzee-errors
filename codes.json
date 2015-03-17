@@ -214,7 +214,7 @@
     "code": 4000024,
     "error": "missing_src_mapping",
     "description": {
-      "en": "The mapping rules for this catalog do not exist."
+      "en": "The columns of this file don't match the ones for this group."
     }
   },
   "CsvHeaderExtraction":{
