@@ -274,6 +274,15 @@
     },
     "status": 400
   },
+   "ArgumentsMissedContactForm": {
+    "error": "arguments_missed_contact_form",
+    "name": "Error",
+    "code": 4090032,
+    "description": {
+      "en": "All the arguments are required: name, email, reason, message"
+    },
+    "status": 400
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -309,6 +318,7 @@
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "INVALID_PARTNERSHIP": "InvalidPartnership",
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
+    "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "CONSTANTS": "constants"
   }
 }
