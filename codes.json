@@ -105,6 +105,22 @@
       "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
     }
   },
+  "ParentRecordNotExist": {
+    "status": 409,
+    "code": 4090016,
+    "error": "parent_record_not_exist",
+    "description": {
+      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
+    }
+  },
+  "RecordUnavailableAsParent": {
+    "status": 409,
+    "code": 4090017,
+    "error": "record_unavailable_as_parent",
+    "description": {
+      "en": "The parent record speficied is a children of another record. You can't set a variant record as parent."
+    }
+  },
   "RefreshTokenRequired": {
     "status": 400,
     "code": 4000004,
@@ -297,7 +313,9 @@
     "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "PARENT_PRODUCT_NOT_EXIST": "ParentProductNotExist",
+    "PARENT_RECORD_NOT_EXIST": "ParentRecordNotExist",
     "PRODUCT_UNAVAILABLE_AS_PARENT": "ProductUnavailableAsParent",
+    "RECORD_UNAVAILABLE_AS_PARENT": "RecordUnavailableAsParent",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "RESOURCE_NOT_FOUND": "ResourceNotFound",
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
