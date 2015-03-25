@@ -217,6 +217,14 @@
       "en": "The number of images provided exceeds the number permitted for a single product."
     }
   },
+  "ExceededImageNumberPerRecord": {
+    "status": 413,
+    "code": 4000021,
+    "error": "image_number_exceeded",
+    "description": {
+      "en": "The number of images provided exceeds the number permitted for a single record."
+    }
+  },
   "UnknownCSVError" : {
     "status": 413,
     "code": 4000022,
@@ -336,6 +344,7 @@
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
     "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
+    "IMAGE_NUMBER_EXCEEDED_RECORD": "ExceededImageNumberPerRecord",
     "UNKNOWN_CSV_ERROR": "UnknownCSVError",
     "MISSING_SRC_MAPPING": "MissingSrcMapping",
     "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
