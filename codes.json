@@ -145,6 +145,14 @@
       "en": "The sku you provided already exists. Please provide a different sku."
     }
   },
+  "RecordIdAlreadyExist": {
+    "status": 410,
+    "code": 4000013,
+    "error": "record_id_already_exist",
+    "description": {
+      "en": "The record Id you provided already exists. Please provide a different record Id."
+    }
+  },
   "Unknown": {
     "status": 500,
     "code": 5000001,
@@ -319,6 +327,7 @@
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "RESOURCE_NOT_FOUND": "ResourceNotFound",
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
+    "RECORD_ID_ALREADY_EXIST": "RecordIdAlreadyExist",
     "UNKNOWN": "Unknown",
     "UNKNOWN_ERROR_ID": "UnknownErrorId",
     "USER_ALREADY_BELONGS_TO_ORG": "UserAlreadyBelongsToOrg",
