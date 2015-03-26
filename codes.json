@@ -15,6 +15,14 @@
       "en": "The catalog name you provide is already existed. Please provide a new catalog name."
     }
   },
+  "CollectionNameAlreadyExist": {
+    "status": 409,
+    "code": 4000012,
+    "error": "collection_name_already_exist",
+    "description": {
+      "en": "The collection name you provide is already existed. Please provide a new collection name."
+    }
+  },
   "EmailAlreadyInUse": {
     "status": 409,
     "code": 4000001,
@@ -318,6 +326,7 @@
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
+    "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
     "FILE_NOT_ALLOWED": "FileNotAllowed",
