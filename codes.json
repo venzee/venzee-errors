@@ -314,12 +314,21 @@
     },
     "status": 400
   },
-   "ArgumentsMissedContactForm": {
+  "ArgumentsMissedContactForm": {
     "error": "arguments_missed_contact_form",
     "name": "Error",
     "code": 4090032,
     "description": {
       "en": "All the arguments are required: name, email, reason, message"
+    },
+    "status": 400
+  },
+  "InvalidCSVFormat": {
+    "error": "invalid_csv_format",
+    "name": "Error",
+    "code": 4090033,
+    "description": {
+      "en": "The CSV file you provided is not in correct format. Make sure the field are separated with coma."
     },
     "status": 400
   },
@@ -364,6 +373,7 @@
     "INVALID_PARTNERSHIP": "InvalidPartnership",
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
+    "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "CONSTANTS": "constants"
   }
 }
