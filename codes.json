@@ -332,6 +332,14 @@
     },
     "status": 400
   },
+  "CsvRecordIdDuplicated":{
+    "status": 400,
+    "code": 4000034,
+    "error": "record_id_duplicated_in_csv_file",
+    "description": {
+      "en": "Record ID is duplicated into de CSV file."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -369,6 +377,7 @@
     "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
     "CSV_MISSING_COLUMN": "CsvMissingColumn",
     "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
+    "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "INVALID_PARTNERSHIP": "InvalidPartnership",
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
