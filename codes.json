@@ -113,14 +113,6 @@
       "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
     }
   },
-  "ParentRecordNotExist": {
-    "status": 409,
-    "code": 4090016,
-    "error": "parent_record_not_exist",
-    "description": {
-      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
-    }
-  },
   "RecordUnavailableAsParent": {
     "status": 409,
     "code": 4090017,
@@ -338,6 +330,14 @@
     "error": "record_id_duplicated_in_csv_file",
     "description": {
       "en": "Record ID is duplicated into de CSV file."
+    }
+  },
+  "ParentRecordNotExist": {
+    "status": 409,
+    "code": 4090035,
+    "error": "parent_record_not_exist",
+    "description": {
+      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
     }
   },
   "constants": {
