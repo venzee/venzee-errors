@@ -340,6 +340,14 @@
       "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
     }
   },
+  "ResourceAlreadyExist": {
+    "status": 409,
+    "code": 4000036,
+    "error": "resource_already_exist",
+    "description": {
+      "en": "The resource that you provided already exist."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -383,6 +391,7 @@
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
+    "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
     "CONSTANTS": "constants"
   }
 }
