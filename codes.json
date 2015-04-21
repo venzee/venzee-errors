@@ -289,6 +289,14 @@
       "en": "The token is invalid or doen't exist."
     }
   },
+  "InvitationTokenExpired":{
+    "status": 400,
+    "code": 4000035,
+    "error": "invitation_token_expired",
+    "description": {
+      "en": "The token has been already used."
+    }
+  },
   "InvalidPartnership":{
     "status": 400,
     "code": 4000030,
@@ -387,6 +395,7 @@
     "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
     "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
+    "INVITATION_TOKEN_EXPIRED": "InvitationTokenExpired",
     "INVALID_PARTNERSHIP": "InvalidPartnership",
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
