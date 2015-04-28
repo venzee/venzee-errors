@@ -380,6 +380,22 @@
       "en": "missing filepicker api key."
     }
   },
+  "AlreadyPartner": {
+    "status": 400,
+    "code": 4090037,
+    "error": "already_partner",
+    "description": {
+      "en": "User is already a partner."
+    }
+  },
+  "InvalidPartnership": {
+    "status": 400,
+    "code": 4090038,
+    "error": "invalid_user_org",
+    "description": {
+      "en": "Invalid User/Organization partnership."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -428,6 +444,8 @@
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
     "MISSING_FILEPICKER_KEY":"missingFilepickerApiKey",
+    "ALREADY_PARTNER":"AlreadyPartner",
+    "INVALID_PARTNERSHIP":"InvalidPartnership",
     "CONSTANTS": "constants"
   }
 }
