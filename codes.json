@@ -65,22 +65,6 @@
       "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
     }
   },
-  "InvalidDimension": {
-    "status": 400,
-    "code": 4000019,
-    "error": "invalid_dimension",
-    "description": {
-      "en": "The parameter you provided is not valid."
-    }
-  },
-  "InvalidCompressionOption": {
-    "status": 400,
-    "code": 4000031,
-    "error": "invalid_compression_option",
-    "description": {
-      "en": "The compression option you provided is not valid."
-    }
-  },
   "InvalidProductStatus": {
     "status": 400,
     "code": 4000016,
@@ -382,8 +366,6 @@
     "INVALID_COST": "InvalidCost",
     "INVALID_DATE": "InvalidDate",
     "INVALID_EMAIL": "InvalidEmail",
-    "INVALID_DIMENSION": "InvalidDimension",
-    "INVALID_COMPRESSION_OPTION": "InvalidCompressionOption",
     "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "OAUTH_ERROR": "OauthError",
