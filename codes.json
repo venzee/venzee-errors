@@ -372,6 +372,14 @@
       "en": "The resource that you provided already exist."
     }
   },
+   "missingFilepickerApiKey": {
+    "status": 500,
+    "code": 5000003,
+    "error": "missing_filepicker_api_key",
+    "description": {
+      "en": "missing filepicker api key."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -419,6 +427,7 @@
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
+    "MISSING_FILEPICKER_KEY":"missingFilepickerApiKey",
     "CONSTANTS": "constants"
   }
 }
