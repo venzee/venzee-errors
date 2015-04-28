@@ -372,14 +372,6 @@
       "en": "The resource that you provided already exist."
     }
   },
-   "missingFilepickerApiKey": {
-    "status": 500,
-    "code": 5000003,
-    "error": "missing_filepicker_api_key",
-    "description": {
-      "en": "missing filepicker api key."
-    }
-  },
   "AlreadyPartner": {
     "status": 400,
     "code": 4090037,
@@ -443,7 +435,6 @@
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
-    "MISSING_FILEPICKER_KEY":"missingFilepickerApiKey",
     "ALREADY_PARTNER":"AlreadyPartner",
     "INVALID_PARTNERSHIP":"InvalidPartnership",
     "CONSTANTS": "constants"
