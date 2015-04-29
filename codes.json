@@ -388,6 +388,14 @@
       "en": "Invalid User/Organization partnership."
     }
   },
+  "CanNotInviteYourself": {
+    "status": 400,
+    "code": 4090039,
+    "error": "can_not_invite_yourself",
+    "description": {
+      "en": "Can not invite yourself."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -437,6 +445,7 @@
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
     "ALREADY_PARTNER":"AlreadyPartner",
     "INVALID_PARTNERSHIP":"InvalidPartnership",
+    "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
     "CONSTANTS": "constants"
   }
 }
