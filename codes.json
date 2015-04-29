@@ -286,7 +286,7 @@
     "code": 4000027,
     "error": "invalid_email",
     "description": {
-      "en": "The cost value you provided is not allowed."
+      "en": "The email value you provided is not allowed."
     }
   },
   "CsvProductIdDuplicated":{
