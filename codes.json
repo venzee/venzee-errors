@@ -396,6 +396,22 @@
       "en": "Can not invite yourself."
     }
   },
+  "InvalidPrivacy": {
+    "status": 400,
+    "code": 4000040,
+    "error": "invalid_privacy_value",
+    "description": {
+      "en": "The privacy value you provided is not allowed"
+    }
+  },
+  "MissingGroupsNames": {
+    "status": 404,
+    "code": 4000041,
+    "error": "missing_groups_names",
+    "description": {
+      "en": "No groups names were provided."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
@@ -446,6 +462,8 @@
     "ALREADY_PARTNER":"AlreadyPartner",
     "INVALID_PARTNERSHIP":"InvalidPartnership",
     "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
+    "INVALID_PRIVACY":"InvalidPrivacy",
+    "MISSING_GROUPS_NAMES":"MissingGroupsNames",
     "CONSTANTS": "constants"
   }
 }
