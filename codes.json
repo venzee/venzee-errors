@@ -7,6 +7,56 @@
       "en": "Your access token has expired. You can request a new access token with refresh token. "
     }
   },
+  "AlreadyPartner": {
+    "status": 400,
+    "code": 4090037,
+    "error": "already_partner",
+    "description": {
+      "en": "User is already a partner."
+    }
+  },
+  "ArgumentsMissedContactForm": {
+    "error": "arguments_missed_contact_form",
+    "name": "Error",
+    "code": 4090032,
+    "description": {
+      "en": "All the arguments are required: name, email, reason, message"
+    },
+    "status": 400
+  },
+  "ArgumentsMissedDeletePartnership": {
+    "error": "arguments_missed_delete_partnership",
+    "name": "Error",
+    "code": 4090031,
+    "description": {
+      "en": "At least you need pass one of this arguments: org, token"
+    },
+    "status": 400
+  },
+  "AttributesDoNotMatch": {
+    "status": 400,
+    "code": 4000024,
+    "error": "missing_src_mapping",
+    "description": {
+      "en": "The columns of this file don't match the ones for this group."
+    }
+  },
+  "CanNotInviteYourself": {
+    "status": 400,
+    "code": 4090039,
+    "error": "can_not_invite_yourself",
+    "description": {
+      "en": "Can not invite yourself."
+    }
+  },
+  "CardDeclined": {
+    "status": 402,
+    "code": 8,
+    "error": "card_declined",
+    "description": {
+      "en": "The card was declined."
+    }
+  },
   "CatalogNameAlreadyExist": {
     "status": 409,
     "code": 4000012,
@@ -21,6 +71,38 @@
     "error": "collection_name_already_exist",
     "description": {
       "en": "The collection name you provide is already existed. Please provide a new collection name."
+    }
+  },
+  "CsvHeaderExtraction": {
+    "status": 400,
+    "code": 4000025,
+    "error": "csv_header_extraction",
+    "description": {
+      "en": "Error on try to extract the headers from the CSV provided."
+    }
+  },
+  "CsvMissingColumn": {
+    "status": 400,
+    "code": 4000026,
+    "error": "csv_missing_column",
+    "description": {
+      "en": "Row doesn't have all the required columns defined by headers."
+    }
+  },
+  "CsvProductIdDuplicated": {
+    "status": 400,
+    "code": 4000028,
+    "error": "product_id_duplicated_in_csv_file",
+    "description": {
+      "en": "Product ID is duplicated into de CSV file."
+    }
+  },
+  "CsvRecordIdDuplicated": {
+    "status": 400,
+    "code": 4000034,
+    "error": "record_id_duplicated_in_csv_file",
+    "description": {
+      "en": "Record ID is duplicated into de CSV file."
     }
   },
   "EmailAlreadyInUse": {
@@ -41,6 +123,30 @@
       "en": "The CSV file you provided is empty. Please provide a file with information."
     }
   },
+  "ExceededImageNumberPerProduct": {
+    "status": 413,
+    "code": 4000021,
+    "error": "image_number_exceeded",
+    "description": {
+      "en": "The number of images provided exceeds the number permitted for a single product."
+    }
+  },
+  "ExceededImageNumberPerRecord": {
+    "status": 413,
+    "code": 4000021,
+    "error": "image_number_exceeded",
+    "description": {
+      "en": "The number of images provided exceeds the number permitted for a single record."
+    }
+  },
+  "ExpiredCard": {
+    "status": 402,
+    "code": 5,
+    "error": "expired_card",
+    "description": {
+      "en": "The card has expired."
+    }
+  },
   "FileNotAllowed": {
     "status": 400,
     "code": 40000011,
@@ -49,12 +155,69 @@
       "en": "The file that you are trying to upload is not allowed on this request."
     }
   },
+  "FileSizeNotAllowed": {
+    "status": 413,
+    "code": 4000020,
+    "error": "file_size_not_allowed",
+    "description": {
+      "en": "Thev file you provided is too long."
+    }
+  },
+  "IncorrectCvc": {
+    "status": 402,
+    "code": 6,
+    "error": "incorrect_cvc",
+    "description": {
+      "en": "The card's security code is incorrect."
+    }
+  },
+  "IncorrectNumber": {
+    "status": 402,
+    "code": null,
+    "error": "incorrect_number",
+    "description": {
+      "en": "The card number is incorrect."
+    }
+  },
+  "IncorrectZip": {
+    "status": 402,
+    "code": 7,
+    "error": "incorrect_zip",
+    "description": {
+      "en": "The card's zip code failed validation."
+    }
+  },
+  "InvalidCSVFormat": {
+    "error": "invalid_csv_format",
+    "name": "Error",
+    "code": 4090033,
+    "description": {
+      "en": "The CSV file you provided is not in correct format. Make sure the field are separated with coma."
+    },
+    "status": 400
+  },
+  "InvalidCompressionOption": {
+    "status": 400,
+    "code": 4000031,
+    "error": "invalid_compression_option",
+    "description": {
+      "en": "The compression option you provided is not valid."
+    }
+  },
   "InvalidCost": {
     "status": 400,
     "code": 4000018,
     "error": "invalid_cost_value",
     "description": {
       "en": "The cost value you provided is not allowed"
+    }
+  },
+  "InvalidCvc": {
+    "status": 402,
+    "code": 4,
+    "error": "invalid_cvc",
+    "description": {
+      "en": "The card's security code is invalid."
     }
   },
   "InvalidDate": {
@@ -73,12 +236,52 @@
       "en": "The parameter you provided is not valid."
     }
   },
-  "InvalidCompressionOption": {
+  "InvalidEmail": {
     "status": 400,
-    "code": 4000031,
-    "error": "invalid_compression_option",
+    "code": 4000027,
+    "error": "invalid_email",
     "description": {
-      "en": "The compression option you provided is not valid."
+      "en": "The email value you provided is not allowed."
+    }
+  },
+  "InvalidExpiryMonth": {
+    "status": 402,
+    "code": 2,
+    "error": "invalid_expiry_month",
+    "description": {
+      "en": "The card's expiration month is invalid."
+    }
+  },
+  "InvalidExpiryYear": {
+    "status": 402,
+    "code": 3,
+    "error": "invalid_expiry_year",
+    "description": {
+      "en": "The card's expiration year is invalid."
+    }
+  },
+  "InvalidNumber": {
+    "status": 402,
+    "code": 1,
+    "error": "invalid_number",
+    "description": {
+      "en": "The card number is not a valid credit card number."
+    }
+  },
+  "InvalidPartnership": {
+    "status": 400,
+    "code": 4090038,
+    "error": "invalid_user_org",
+    "description": {
+      "en": "Invalid User/Organization partnership."
+    }
+  },
+  "InvalidPrivacy": {
+    "status": 400,
+    "code": 4000040,
+    "error": "invalid_privacy_value",
+    "description": {
+      "en": "The privacy value you provided is not allowed"
     }
   },
   "InvalidProductStatus": {
@@ -87,6 +290,46 @@
     "error": "invalid_product_status",
     "description": {
       "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
+    }
+  },
+  "InvitationInvalidToken": {
+    "status": 400,
+    "code": 4000029,
+    "error": "invitation_token_invalid",
+    "description": {
+      "en": "The token is invalid or doen't exist."
+    }
+  },
+  "InvitationTokenExpired": {
+    "status": 400,
+    "code": 4000035,
+    "error": "invitation_token_expired",
+    "description": {
+      "en": "The token has been already used."
+    }
+  },
+  "Missing": {
+    "status": 402,
+    "code": 9,
+    "error": "missing",
+    "description": {
+      "en": "There is no card on a customer that is being charged."
+    }
+  },
+  "MissingGroupsNames": {
+    "status": 404,
+    "code": 4000041,
+    "error": "missing_groups_names",
+    "description": {
+      "en": "No groups names were provided."
+    }
+  },
+  "MissingSrcMapping": {
+    "status": 404,
+    "code": 4000023,
+    "error": "missing_src_mapping",
+    "description": {
+      "en": "The mapping rules for this catalog do not exist."
     }
   },
   "NameContainSpecialChar": {
@@ -121,12 +364,44 @@
       "en": "The parent product specified not exist. Please set a valid parent product for the new variant product."
     }
   },
+  "ParentRecordNotExist": {
+    "status": 409,
+    "code": 4090035,
+    "error": "parent_record_not_exist",
+    "description": {
+      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
+    }
+  },
+  "ProcessingError": {
+    "status": 402,
+    "code": 10,
+    "error": "processing_error",
+    "description": {
+      "en": "An error occurred while processing the card."
+    }
+  },
   "ProductUnavailableAsParent": {
     "status": 409,
     "code": 4090017,
     "error": "product_unavailable_as_parent",
     "description": {
       "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
+    }
+  },
+  "RateLimit": {
+    "status": 402,
+    "code": 11,
+    "error": "rate_limit",
+    "description": {
+      "en": "An error occurred due to requests hitting the API too quickly"
+    }
+  },
+  "RecordIdAlreadyExist": {
+    "status": 410,
+    "code": 4000013,
+    "error": "record_id_already_exist",
+    "description": {
+      "en": "The record Id you provided already exists. Please provide a different record Id."
     }
   },
   "RecordUnavailableAsParent": {
@@ -145,6 +420,14 @@
       "en": "The refresh token is required"
     }
   },
+  "ResourceAlreadyExist": {
+    "status": 409,
+    "code": 4000036,
+    "error": "resource_already_exist",
+    "description": {
+      "en": "The resource that you provided already exist."
+    }
+  },
   "ResourceNotFound": {
     "status": 404,
     "code": 4000008,
@@ -161,20 +444,20 @@
       "en": "The sku you provided already exists. Please provide a different sku."
     }
   },
-  "RecordIdAlreadyExist": {
-    "status": 410,
-    "code": 4000013,
-    "error": "record_id_already_exist",
-    "description": {
-      "en": "The record Id you provided already exists. Please provide a different record Id."
-    }
-  },
   "Unknown": {
     "status": 500,
     "code": 5000001,
     "error": "unknown",
     "description": {
       "en": "Venzee system issue."
+    }
+  },
+  "UnknownCSVError": {
+    "status": 413,
+    "code": 4000022,
+    "error": "unknown_csv_error",
+    "description": {
+      "en": "The was an unknown error in the csv upload process."
     }
   },
   "UnknownErrorId": {
@@ -217,253 +500,69 @@
       "en": "The CSV file you provided contains a chained parentId."
     }
   },
-  "FileSizeNotAllowed": {
-    "status": 413,
-    "code": 4000020,
-    "error": "file_size_not_allowed",
-    "description": {
-      "en": "Thev file you provided is too long."
-    }
-  },
-  "ExceededImageNumberPerProduct": {
-    "status": 413,
-    "code": 4000021,
-    "error": "image_number_exceeded",
-    "description": {
-      "en": "The number of images provided exceeds the number permitted for a single product."
-    }
-  },
-  "ExceededImageNumberPerRecord": {
-    "status": 413,
-    "code": 4000021,
-    "error": "image_number_exceeded",
-    "description": {
-      "en": "The number of images provided exceeds the number permitted for a single record."
-    }
-  },
-  "UnknownCSVError" : {
-    "status": 413,
-    "code": 4000022,
-    "error": "unknown_csv_error",
-    "description": {
-      "en": "The was an unknown error in the csv upload process."
-    }
-  },
-  "MissingSrcMapping": {
-    "status": 404,
-    "code": 4000023,
-    "error": "missing_src_mapping",
-    "description": {
-      "en": "The mapping rules for this catalog do not exist."
-    }
-  },
-  "AttributesDoNotMatch": {
-    "status": 400,
-    "code": 4000024,
-    "error": "missing_src_mapping",
-    "description": {
-      "en": "The columns of this file don't match the ones for this group."
-    }
-  },
-  "CsvHeaderExtraction":{
-    "status": 400,
-    "code": 4000025,
-    "error": "csv_header_extraction",
-    "description": {
-      "en": "Error on try to extract the headers from the CSV provided."
-    }
-  },
-  "CsvMissingColumn":{
-    "status": 400,
-    "code": 4000026,
-    "error": "csv_missing_column",
-    "description": {
-      "en": "Row doesn't have all the required columns defined by headers."
-    }
-  },
-  "InvalidEmail":{
-    "status": 400,
-    "code": 4000027,
-    "error": "invalid_email",
-    "description": {
-      "en": "The email value you provided is not allowed."
-    }
-  },
-  "CsvProductIdDuplicated":{
-    "status": 400,
-    "code": 4000028,
-    "error": "product_id_duplicated_in_csv_file",
-    "description": {
-      "en": "Product ID is duplicated into de CSV file."
-    }
-  },
-  "InvitationInvalidToken":{
-    "status": 400,
-    "code": 4000029,
-    "error": "invitation_token_invalid",
-    "description": {
-      "en": "The token is invalid or doen't exist."
-    }
-  },
-  "InvitationTokenExpired":{
-    "status": 400,
-    "code": 4000035,
-    "error": "invitation_token_expired",
-    "description": {
-      "en": "The token has been already used."
-    }
-  },
-  "InvalidPartnership":{
-    "status": 400,
-    "code": 4000030,
-    "error": "invalid_partnership",
-    "description": {
-      "en": "There is not relationship between the User and Organization."
-    }
-  },
-  "ArgumentsMissedDeletePartnership": {
-    "error": "arguments_missed_delete_partnership",
-    "name": "Error",
-    "code": 4090031,
-    "description": {
-      "en": "At least you need pass one of this arguments: org, token"
-    },
-    "status": 400
-  },
-  "ArgumentsMissedContactForm": {
-    "error": "arguments_missed_contact_form",
-    "name": "Error",
-    "code": 4090032,
-    "description": {
-      "en": "All the arguments are required: name, email, reason, message"
-    },
-    "status": 400
-  },
-  "InvalidCSVFormat": {
-    "error": "invalid_csv_format",
-    "name": "Error",
-    "code": 4090033,
-    "description": {
-      "en": "The CSV file you provided is not in correct format. Make sure the field are separated with coma."
-    },
-    "status": 400
-  },
-  "CsvRecordIdDuplicated":{
-    "status": 400,
-    "code": 4000034,
-    "error": "record_id_duplicated_in_csv_file",
-    "description": {
-      "en": "Record ID is duplicated into de CSV file."
-    }
-  },
-  "ParentRecordNotExist": {
-    "status": 409,
-    "code": 4090035,
-    "error": "parent_record_not_exist",
-    "description": {
-      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
-    }
-  },
-  "ResourceAlreadyExist": {
-    "status": 409,
-    "code": 4000036,
-    "error": "resource_already_exist",
-    "description": {
-      "en": "The resource that you provided already exist."
-    }
-  },
-  "AlreadyPartner": {
-    "status": 400,
-    "code": 4090037,
-    "error": "already_partner",
-    "description": {
-      "en": "User is already a partner."
-    }
-  },
-  "InvalidPartnership": {
-    "status": 400,
-    "code": 4090038,
-    "error": "invalid_user_org",
-    "description": {
-      "en": "Invalid User/Organization partnership."
-    }
-  },
-  "CanNotInviteYourself": {
-    "status": 400,
-    "code": 4090039,
-    "error": "can_not_invite_yourself",
-    "description": {
-      "en": "Can not invite yourself."
-    }
-  },
-  "InvalidPrivacy": {
-    "status": 400,
-    "code": 4000040,
-    "error": "invalid_privacy_value",
-    "description": {
-      "en": "The privacy value you provided is not allowed"
-    }
-  },
-  "MissingGroupsNames": {
-    "status": 404,
-    "code": 4000041,
-    "error": "missing_groups_names",
-    "description": {
-      "en": "No groups names were provided."
-    }
-  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
+    "ALREADY_PARTNER": "AlreadyPartner",
+    "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
+    "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
+    "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
+    "CAN_NOT_INVITE_YOURSELF": "CanNotInviteYourself",
+    "CARD_DECLINED": "CardDeclined",
     "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
+    "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
+    "CSV_MISSING_COLUMN": "CsvMissingColumn",
+    "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
+    "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
+    "EXCEEDED_IMAGE_NUMBER_PER_PRODUCT": "ExceededImageNumberPerProduct",
+    "EXCEEDED_IMAGE_NUMBER_PER_RECORD": "ExceededImageNumberPerRecord",
+    "EXPIRED_CARD": "ExpiredCard",
     "FILE_NOT_ALLOWED": "FileNotAllowed",
-    "INVALID_COST": "InvalidCost",
-    "INVALID_DATE": "InvalidDate",
-    "INVALID_EMAIL": "InvalidEmail",
-    "INVALID_DIMENSION": "InvalidDimension",
+    "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
+    "INCORRECT_CVC": "IncorrectCvc",
+    "INCORRECT_NUMBER": "IncorrectNumber",
+    "INCORRECT_ZIP": "IncorrectZip",
+    "INVALID_CSVFORMAT": "InvalidCSVFormat",
     "INVALID_COMPRESSION_OPTION": "InvalidCompressionOption",
+    "INVALID_COST": "InvalidCost",
+    "INVALID_CVC": "InvalidCvc",
+    "INVALID_DATE": "InvalidDate",
+    "INVALID_DIMENSION": "InvalidDimension",
+    "INVALID_EMAIL": "InvalidEmail",
+    "INVALID_EXPIRY_MONTH": "InvalidExpiryMonth",
+    "INVALID_EXPIRY_YEAR": "InvalidExpiryYear",
+    "INVALID_NUMBER": "InvalidNumber",
+    "INVALID_PARTNERSHIP": "InvalidPartnership",
+    "INVALID_PRIVACY": "InvalidPrivacy",
     "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
+    "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
+    "INVITATION_TOKEN_EXPIRED": "InvitationTokenExpired",
+    "MISSING": "Missing",
+    "MISSING_GROUPS_NAMES": "MissingGroupsNames",
+    "MISSING_SRC_MAPPING": "MissingSrcMapping",
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
     "PARENT_PRODUCT_NOT_EXIST": "ParentProductNotExist",
     "PARENT_RECORD_NOT_EXIST": "ParentRecordNotExist",
+    "PROCESSING_ERROR": "ProcessingError",
     "PRODUCT_UNAVAILABLE_AS_PARENT": "ProductUnavailableAsParent",
+    "RATE_LIMIT": "RateLimit",
+    "RECORD_ID_ALREADY_EXIST": "RecordIdAlreadyExist",
     "RECORD_UNAVAILABLE_AS_PARENT": "RecordUnavailableAsParent",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
+    "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
     "RESOURCE_NOT_FOUND": "ResourceNotFound",
     "SKU_ALREADY_EXIST": "SkuAlreadyExist",
-    "RECORD_ID_ALREADY_EXIST": "RecordIdAlreadyExist",
     "UNKNOWN": "Unknown",
+    "UNKNOWN_CSVERROR": "UnknownCSVError",
     "UNKNOWN_ERROR_ID": "UnknownErrorId",
     "USER_ALREADY_BELONGS_TO_ORG": "UserAlreadyBelongsToOrg",
     "USER_CREDENTIALS_REQUIRED": "UserCredentialsRequired",
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
-    "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
-    "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
-    "IMAGE_NUMBER_EXCEEDED_RECORD": "ExceededImageNumberPerRecord",
-    "UNKNOWN_CSV_ERROR": "UnknownCSVError",
-    "MISSING_SRC_MAPPING": "MissingSrcMapping",
-    "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
-    "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
-    "CSV_MISSING_COLUMN": "CsvMissingColumn",
-    "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
-    "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
-    "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
-    "INVITATION_TOKEN_EXPIRED": "InvitationTokenExpired",
-    "INVALID_PARTNERSHIP": "InvalidPartnership",
-    "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
-    "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
-    "INVALID_CSV_FORMAT": "InvalidCSVFormat",
-    "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
-    "ALREADY_PARTNER":"AlreadyPartner",
-    "INVALID_PARTNERSHIP":"InvalidPartnership",
-    "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
-    "INVALID_PRIVACY":"InvalidPrivacy",
-    "MISSING_GROUPS_NAMES":"MissingGroupsNames",
     "CONSTANTS": "constants"
   }
 }
