@@ -7,14 +7,6 @@
       "en": "Your access token has expired. You can request a new access token with refresh token. "
     }
   },
-  "CatalogNameAlreadyExist": {
-    "status": 409,
-    "code": 4000012,
-    "error": "catalog_name_already_exist",
-    "description": {
-      "en": "The catalog name you provide is already existed. Please provide a new catalog name."
-    }
-  },
   "CollectionNameAlreadyExist": {
     "status": 409,
     "code": 4000012,
@@ -81,14 +73,6 @@
       "en": "The compression option you provided is not valid."
     }
   },
-  "InvalidProductStatus": {
-    "status": 400,
-    "code": 4000016,
-    "error": "invalid_product_status",
-    "description": {
-      "en": "Status allowed: Available, Back Order, Pre-Order, Pending, Discontinued, Deleted."
-    }
-  },
   "NameContainSpecialChar": {
     "status": 400,
     "code": 4000007,
@@ -111,22 +95,6 @@
     "error": "organization_unavailable",
     "description": {
       "en": "The organization name you requested is unavailable."
-    }
-  },
-  "ParentProductNotExist": {
-    "status": 409,
-    "code": 4090016,
-    "error": "parent_product_not_exist",
-    "description": {
-      "en": "The parent product specified not exist. Please set a valid parent product for the new variant product."
-    }
-  },
-  "ProductUnavailableAsParent": {
-    "status": 409,
-    "code": 4090017,
-    "error": "product_unavailable_as_parent",
-    "description": {
-      "en": "The parent product speficied is a children of another product. You can't set a variant product as parent."
     }
   },
   "RecordUnavailableAsParent": {
@@ -225,14 +193,6 @@
       "en": "Thev file you provided is too long."
     }
   },
-  "ExceededImageNumberPerProduct": {
-    "status": 413,
-    "code": 4000021,
-    "error": "image_number_exceeded",
-    "description": {
-      "en": "The number of images provided exceeds the number permitted for a single product."
-    }
-  },
   "ExceededImageNumberPerRecord": {
     "status": 413,
     "code": 4000021,
@@ -287,14 +247,6 @@
     "error": "invalid_email",
     "description": {
       "en": "The email value you provided is not allowed."
-    }
-  },
-  "CsvProductIdDuplicated":{
-    "status": 400,
-    "code": 4000028,
-    "error": "product_id_duplicated_in_csv_file",
-    "description": {
-      "en": "Product ID is duplicated into de CSV file."
     }
   },
   "InvitationInvalidToken":{
@@ -414,7 +366,6 @@
   },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
-    "CATALOG_NAME_ALREADY_EXIST": "CatalogNameAlreadyExist",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
@@ -424,13 +375,10 @@
     "INVALID_EMAIL": "InvalidEmail",
     "INVALID_DIMENSION": "InvalidDimension",
     "INVALID_COMPRESSION_OPTION": "InvalidCompressionOption",
-    "INVALID_PRODUCT_STATUS": "InvalidProductStatus",
     "NAME_CONTAIN_SPECIAL_CHAR": "NameContainSpecialChar",
     "OAUTH_ERROR": "OauthError",
     "ORGANIZATION_UNAVAILABLE": "OrganizationUnavailable",
-    "PARENT_PRODUCT_NOT_EXIST": "ParentProductNotExist",
     "PARENT_RECORD_NOT_EXIST": "ParentRecordNotExist",
-    "PRODUCT_UNAVAILABLE_AS_PARENT": "ProductUnavailableAsParent",
     "RECORD_UNAVAILABLE_AS_PARENT": "RecordUnavailableAsParent",
     "REFRESH_TOKEN_REQUIRED": "RefreshTokenRequired",
     "RESOURCE_NOT_FOUND": "ResourceNotFound",
@@ -443,14 +391,12 @@
     "USERNAME_UNAVAILABLE": "UsernameUnavailable",
     "VARIANT_CHAINED_CSV": "VariantChainedCSV",
     "FILE_SIZE_NOT_ALLOWED": "FileSizeNotAllowed",
-    "IMAGE_NUMBER_EXCEEDED": "ExceededImageNumberPerProduct",
     "IMAGE_NUMBER_EXCEEDED_RECORD": "ExceededImageNumberPerRecord",
     "UNKNOWN_CSV_ERROR": "UnknownCSVError",
     "MISSING_SRC_MAPPING": "MissingSrcMapping",
     "ATTRIBUTES_DO_NOT_MATCH": "AttributesDoNotMatch",
     "CSV_HEADER_EXTRACTION": "CsvHeaderExtraction",
     "CSV_MISSING_COLUMN": "CsvMissingColumn",
-    "CSV_PRODUCT_ID_DUPLICATED": "CsvProductIdDuplicated",
     "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "INVITATION_TOKEN_EXPIRED": "InvitationTokenExpired",
