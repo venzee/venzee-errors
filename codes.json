@@ -364,6 +364,102 @@
       "en": "No groups names were provided."
     }
   },
+  "IncorrectNumber": {
+    "status": 402,
+    "code": 4020042,
+    "error": "incorrect_number",
+    "description": {
+      "en": "The card number is incorrect."
+    }
+  },
+  "InvalidNumber": {
+    "status": 402,
+    "code": 4020043,
+    "error": "invalid_number",
+    "description": {
+      "en": "The card number is not a valid credit card number."
+    }
+  },
+  "InvalidExpiryMonth": {
+    "status": 402,
+    "code": 4020044,
+    "error": "invalid_expiry_month",
+    "description": {
+      "en": "The card's expiration month is invalid."
+    }
+  },
+  "InvalidExpiryYear": {
+    "status": 402,
+    "code": 4020045,
+    "error": "invalid_expiry_year",
+    "description": {
+      "en": "The card's expiration year is invalid."
+    }
+  },
+  "InvalidCvc": {
+    "status": 402,
+    "code": 4020046,
+    "error": "invalid_cvc",
+    "description": {
+      "en": "The card's security code is invalid."
+    }
+  },
+  "ExpiredCard": {
+    "status": 402,
+    "code": 4020047,
+    "error": "expired_card",
+    "description": {
+      "en": "The card has expired."
+    }
+  },
+  "IncorrectCvc": {
+    "status": 402,
+    "code": 4020048,
+    "error": "incorrect_cvc",
+    "description": {
+      "en": "The card's security code is incorrect."
+    }
+  },
+  "IncorrectZip": {
+    "status": 402,
+    "code": 4020049,
+    "error": "incorrect_zip",
+    "description": {
+      "en": "The card's zip code failed validation."
+    }
+  },
+  "CardDeclined": {
+    "status": 402,
+    "code": 4020050,
+    "error": "card_declined",
+    "description": {
+      "en": "The card was declined."
+    }
+  },
+  "Missing": {
+    "status": 402,
+    "code": 4020051,
+    "error": "missing",
+    "description": {
+      "en": "There is no card on a customer that is being charged."
+    }
+  },
+  "ProcessingError": {
+    "status": 402,
+    "code": 4020052,
+    "error": "processing_error",
+    "description": {
+      "en": "An error occurred while processing the card."
+    }
+  },
+  "RateLimit": {
+    "status": 402,
+    "code": 4020053,
+    "error": "rate_limit",
+    "description": {
+      "en": "An error occurred due to requests hitting the API too quickly."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -410,6 +506,18 @@
     "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
     "INVALID_PRIVACY":"InvalidPrivacy",
     "MISSING_GROUPS_NAMES":"MissingGroupsNames",
+    "INCORRECT_NUMBER":"IncorrectNumber",
+    "INVALID_NUMBER":"InvalidNumber",
+    "INVALID_EXPIRY_MONTH":"InvalidExpiryMonth",
+    "INVALID_EXPIRY_YEAR":"InvalidExpiryYear",
+    "INVALID_CVC":"InvalidCvc",
+    "EXPIRED_CARD":"ExpiredCard",
+    "INCORRECT_CVC":"IncorrectCvc",
+    "INCORRECT_ZIP":"IncorrectZip",
+    "CARD_DECLINED":"CardDeclined",
+    "MISSING":"missing",
+    "PROCESSING_ERROR":"ProcessingError",
+    "RATE_LIMIT":"RateLimit",
     "CONSTANTS": "constants"
   }
 }
