@@ -526,7 +526,7 @@
     "MISSING":"missing",
     "PROCESSING_ERROR":"ProcessingError",
     "RATE_LIMIT":"RateLimit",
-    "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists"
+    "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
     "CONSTANTS": "constants"
   }
 }
