@@ -364,100 +364,100 @@
       "en": "No groups names were provided."
     }
   },
-  "IncorrectNumber": {
+  "StripeIncorrectNumber": {
     "status": 402,
     "code": 4020042,
-    "error": "incorrect_number",
+    "error": "stripe_incorrect_number",
     "description": {
-      "en": "The card number is incorrect."
+      "en": "Stripe: The card number is incorrect."
     }
   },
-  "InvalidNumber": {
+  "StripeInvalidNumber": {
     "status": 402,
     "code": 4020043,
-    "error": "invalid_number",
+    "error": "stripe_invalid_number",
     "description": {
-      "en": "The card number is not a valid credit card number."
+      "en": "Stripe: The card number is not a valid credit card number."
     }
   },
-  "InvalidExpiryMonth": {
+  "StripeInvalidExpiryMonth": {
     "status": 402,
     "code": 4020044,
-    "error": "invalid_expiry_month",
+    "error": "stripe_invalid_expiry_month",
     "description": {
-      "en": "The card's expiration month is invalid."
+      "en": "Stripe: The card's expiration month is invalid."
     }
   },
-  "InvalidExpiryYear": {
+  "StripeInvalidExpiryYear": {
     "status": 402,
     "code": 4020045,
-    "error": "invalid_expiry_year",
+    "error": "stripe_invalid_expiry_year",
     "description": {
-      "en": "The card's expiration year is invalid."
+      "en": "Stripe: The card's expiration year is invalid."
     }
   },
-  "InvalidCvc": {
+  "StripeInvalidCvc": {
     "status": 402,
     "code": 4020046,
-    "error": "invalid_cvc",
+    "error": "stripe_invalid_cvc",
     "description": {
-      "en": "The card's security code is invalid."
+      "en": "Stripe: The card's security code is invalid."
     }
   },
-  "ExpiredCard": {
+  "StripeExpiredCard": {
     "status": 402,
     "code": 4020047,
-    "error": "expired_card",
+    "error": "stripe_expired_card",
     "description": {
-      "en": "The card has expired."
+      "en": "Stripe: The card has expired."
     }
   },
-  "IncorrectCvc": {
+  "StripeIncorrectCvc": {
     "status": 402,
     "code": 4020048,
-    "error": "incorrect_cvc",
+    "error": "stripe_incorrect_cvc",
     "description": {
-      "en": "The card's security code is incorrect."
+      "en": "Stripe: The card's security code is incorrect."
     }
   },
-  "IncorrectZip": {
+  "StripeIncorrectZip": {
     "status": 402,
     "code": 4020049,
-    "error": "incorrect_zip",
+    "error": "stripe_incorrect_zip",
     "description": {
-      "en": "The card's zip code failed validation."
+      "en": "Stripe: The card's zip code failed validation."
     }
   },
-  "CardDeclined": {
+  "StripeCardDeclined": {
     "status": 402,
     "code": 4020050,
-    "error": "card_declined",
+    "error": "stripe_card_declined",
     "description": {
-      "en": "The card was declined."
+      "en": "Stripe: The card was declined."
     }
   },
-  "Missing": {
+  "StripeMissing": {
     "status": 402,
     "code": 4020051,
-    "error": "missing",
+    "error": "stripe_missing",
     "description": {
-      "en": "There is no card on a customer that is being charged."
+      "en": "Stripe: There is no card on a customer that is being charged."
     }
   },
-  "ProcessingError": {
+  "StripeProcessingError": {
     "status": 402,
     "code": 4020052,
-    "error": "processing_error",
+    "error": "stripe_processing_error",
     "description": {
-      "en": "An error occurred while processing the card."
+      "en": "Stripe: An error occurred while processing the card."
     }
   },
-  "RateLimit": {
+  "StripeRateLimit": {
     "status": 402,
     "code": 4020053,
-    "error": "rate_limit",
+    "error": "stripe_rate_limit",
     "description": {
-      "en": "An error occurred due to requests hitting the API too quickly."
+      "en": "Stripe: An error occurred due to requests hitting the API too quickly."
     }
   },
   "GroupNameAlreadyExists": {
@@ -468,12 +468,12 @@
       "en": "This group name already exists."
     }
   },
-  "PaidPlanArgumentsMissing": {
+  "StripePaidPlanArgumentsMissing": {
     "status": 400,
     "code": 4000055,
-    "error": "paid_plan_arguments_missing",
+    "error": "stripe_paid_plan_arguments_missing",
     "description": {
-      "en": "Plan Id and/or token are missing."
+      "en": "Stripe: Plan Id and/or token are missing."
     }
   },
   "constants": {
@@ -522,20 +522,20 @@
     "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
     "INVALID_PRIVACY":"InvalidPrivacy",
     "MISSING_GROUPS_NAMES":"MissingGroupsNames",
-    "INCORRECT_NUMBER":"IncorrectNumber",
-    "INVALID_NUMBER":"InvalidNumber",
-    "INVALID_EXPIRY_MONTH":"InvalidExpiryMonth",
-    "INVALID_EXPIRY_YEAR":"InvalidExpiryYear",
-    "INVALID_CVC":"InvalidCvc",
-    "EXPIRED_CARD":"ExpiredCard",
-    "INCORRECT_CVC":"IncorrectCvc",
-    "INCORRECT_ZIP":"IncorrectZip",
-    "CARD_DECLINED":"CardDeclined",
-    "MISSING":"missing",
-    "PROCESSING_ERROR":"ProcessingError",
-    "RATE_LIMIT":"RateLimit",
+    "STRIPE_INCORRECT_NUMBER":"StripeIncorrectNumber",
+    "STRIPE_INVALID_NUMBER":"StripeInvalidNumber",
+    "STRIPE_INVALID_EXPIRY_MONTH":"StripeInvalidExpiryMonth",
+    "STRIPE_INVALID_EXPIRY_YEAR":"StripeInvalidExpiryYear",
+    "STRIPE_INVALID_CVC":"StripeInvalidCvc",
+    "STRIPE_EXPIRED_CARD":"StripeExpiredCard",
+    "STRIPE_INCORRECT_CVC":"StripeIncorrectCvc",
+    "STRIPE_INCORRECT_ZIP":"StripeIncorrectZip",
+    "STRIPE_CARD_DECLINED":"StripeCardDeclined",
+    "STRIPE_MISSING":"StripeMissing",
+    "STRIPE_PROCESSING_ERROR":"StripeProcessingError",
+    "STRIPE_RATE_LIMIT":"StripeRateLimit",
     "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
-    "PAID_PLAN_ARGUMENTS_MISSING":"PaidPlanArgumentsMissing",
+    "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
     "CONSTANTS": "constants"
   }
 }
