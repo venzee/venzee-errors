@@ -468,6 +468,14 @@
       "en": "This group name already exists."
     }
   },
+  "PaidPlanArgumentsMissing": {
+    "status": 400,
+    "code": 4000055,
+    "error": "paid_plan_arguments_missing",
+    "description": {
+      "en": "Plan Id and/or token are missing."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -527,6 +535,7 @@
     "PROCESSING_ERROR":"ProcessingError",
     "RATE_LIMIT":"RateLimit",
     "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
+    "PAID_PLAN_ARGUMENTS_MISSING":"PaidPlanArgumentsMissing",
     "CONSTANTS": "constants"
   }
 }
