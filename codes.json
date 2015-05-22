@@ -476,6 +476,14 @@
       "en": "Stripe: Plan Id and/or token are missing."
     }
   },
+  "PermissionError": {
+    "status": 403,
+    "code": 4000056,
+    "error": "permission_error",
+    "description": {
+      "en": "You don't have the permission to perform the operation."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -536,6 +544,7 @@
     "STRIPE_RATE_LIMIT":"StripeRateLimit",
     "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
     "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
+    "PERMISSION_ERROR": "PermissionError",
     "CONSTANTS": "constants"
   }
 }
