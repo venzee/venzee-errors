@@ -12,7 +12,7 @@
     "code": 4000012,
     "error": "collection_name_already_exist",
     "description": {
-      "en": "The collection name you provide is already existed. Please provide a new collection name."
+      "en": "The collection name you provide already exists. Please provide a new collection name."
     }
   },
   "EmailAlreadyInUse": {
@@ -20,9 +20,9 @@
     "code": 4000001,
     "error": "email_already_in_use",
     "description": {
-      "en": "The email address you provided is already in use. Please provide a new email or log in instead.",
+      "en": "The email address you provided is already in use. Please provide a new email address or log in instead.",
       "es-LA": "El correo electrónico proporcionado se encuentra en uso.",
-      "fr-CA": "Le courriel fournit existe déjà"
+      "fr-CA": "Le courriel fournit existe déjà.  Svp, fournir un nouveau courriel ou veuillez vous authentifier."
     }
   },
   "EmptyCsvFile": {
@@ -30,7 +30,7 @@
     "code": 4000014,
     "error": "empty_csv_file",
     "description": {
-      "en": "The CSV file you provided is empty. Please provide a file with information."
+      "en": "The CSV file you provided is empty. Please try again with a new CSV file with product data records."
     }
   },
   "FileNotAllowed": {
@@ -38,7 +38,7 @@
     "code": 40000011,
     "error": "file_type_not_allowed",
     "description": {
-      "en": "The file that you are trying to upload is not allowed on this request."
+      "en": "The file  you are trying to upload is not supported.  Please try again using accepted file types on this request."
     }
   },
   "InvalidCost": {
@@ -46,7 +46,7 @@
     "code": 4000018,
     "error": "invalid_cost_value",
     "description": {
-      "en": "The cost value you provided is not allowed"
+      "en": "You entered an invalid cost value. Please try again using only numerical values."
     }
   },
   "InvalidDate": {
@@ -54,7 +54,7 @@
     "code": 4000017,
     "error": "invalid_date_fortmat",
     "description": {
-      "en": "The date format you provided is not allowed, provide the following format: 'MM/DD/YY' ."
+      "en": "The date format you provided is invalid.  Please use the following format: 'MM/DD/YY' ."
     }
   },
   "InvalidDimension": {
@@ -62,7 +62,7 @@
     "code": 4000019,
     "error": "invalid_dimension",
     "description": {
-      "en": "The parameter you provided is not valid."
+      "en": "You entered an invalid dimension.  Please try again."
     }
   },
   "InvalidCompressionOption": {
@@ -70,7 +70,7 @@
     "code": 4000031,
     "error": "invalid_compression_option",
     "description": {
-      "en": "The compression option you provided is not valid."
+      "en": "You entered an invalid compression option. Please try again."
     }
   },
   "NameContainSpecialChar": {
@@ -78,7 +78,7 @@
     "code": 4000007,
     "error": "name_contain_special_char",
     "description": {
-      "en": "The name should only contains the letter, number, -, _, ."
+      "en": "You entered an invalid character. Please only use letters, numbers, -, _, ."
     }
   },
   "OauthError": {
@@ -86,7 +86,7 @@
     "code": 4000010,
     "error": "oauth_error",
     "description": {
-      "en": "Error on get Authentication Token"
+      "en": "Error on get Authentication Token."
     }
   },
   "OrganizationUnavailable": {
@@ -94,7 +94,7 @@
     "code": 4000006,
     "error": "organization_unavailable",
     "description": {
-      "en": "The organization name you requested is unavailable."
+      "en": "The company name you requested is unavailable."
     }
   },
   "RecordUnavailableAsParent": {
@@ -102,7 +102,7 @@
     "code": 4090017,
     "error": "record_unavailable_as_parent",
     "description": {
-      "en": "The parent record speficied is a children of another record. You can't set a variant record as parent."
+      "en": "The parent record specified is a variant of another product. Please select the correct parent record."
     }
   },
   "RefreshTokenRequired": {
@@ -110,7 +110,7 @@
     "code": 4000004,
     "error": "refresh_token_required",
     "description": {
-      "en": "The refresh token is required"
+      "en": "The refresh token is required."
     }
   },
   "ResourceNotFound": {
@@ -126,7 +126,7 @@
     "code": 4000013,
     "error": "sku_already_exist",
     "description": {
-      "en": "The sku you provided already exists. Please provide a different sku."
+      "en": "The SKU you provided already exists. Please try a different SKU."
     }
   },
   "RecordIdAlreadyExist": {
@@ -134,7 +134,7 @@
     "code": 4000013,
     "error": "record_id_already_exist",
     "description": {
-      "en": "The record Id you provided already exists. Please provide a different record Id."
+      "en": "The Record ID you provided already exists. Please try a different record ID."
     }
   },
   "Unknown": {
@@ -150,7 +150,7 @@
     "code": 5000002,
     "error": "unknown_error_id",
     "description": {
-      "en": "Unknown error id"
+      "en": "Unknown error id."
     }
   },
   "UserAlreadyBelongsToOrg": {
@@ -166,7 +166,7 @@
     "code": 4000003,
     "error": "user_credentials_required",
     "description": {
-      "en": "The user credentials are required"
+      "en": "Please enter you login information."
     }
   },
   "UsernameUnavailable": {
@@ -182,7 +182,7 @@
     "code": 4000015,
     "error": "variant_chained_in_csv_file",
     "description": {
-      "en": "The CSV file you provided contains a chained parentId."
+      "en": "The CSV file you provided contains a chained Parent ID.  Please try removing this record and try uploading again."
     }
   },
   "FileSizeNotAllowed": {
@@ -190,7 +190,7 @@
     "code": 4000020,
     "error": "file_size_not_allowed",
     "description": {
-      "en": "Thev file you provided is too long."
+      "en": "The file you provided is too long.  Please try shortening it and try again."
     }
   },
   "ExceededImageNumberPerRecord": {
@@ -198,7 +198,7 @@
     "code": 4000021,
     "error": "image_number_exceeded",
     "description": {
-      "en": "The number of images provided exceeds the number permitted for a single record."
+      "en": "The number of images provided exceeds the number permitted for a single record.  Please delete some images and try again."
     }
   },
   "UnknownCSVError" : {
@@ -206,7 +206,7 @@
     "code": 4000022,
     "error": "unknown_csv_error",
     "description": {
-      "en": "The was an unknown error in the csv upload process."
+      "en": "The was an unknown error in the CSV upload process."
     }
   },
   "MissingSrcMapping": {
@@ -214,7 +214,7 @@
     "code": 4000023,
     "error": "missing_src_mapping",
     "description": {
-      "en": "The mapping rules for this catalog do not exist."
+      "en": "The Mapping rules for this catalogue do not exist."
     }
   },
   "AttributesDoNotMatch": {
@@ -222,7 +222,7 @@
     "code": 4000024,
     "error": "missing_src_mapping",
     "description": {
-      "en": "The columns of this file don't match the ones for this group."
+      "en": "The columns of this file do not match the columns for this group.  Please try again."
     }
   },
   "CsvHeaderExtraction":{
@@ -230,7 +230,7 @@
     "code": 4000025,
     "error": "csv_header_extraction",
     "description": {
-      "en": "Error on try to extract the headers from the CSV provided."
+      "en": "An error occured when extracting the headers from the CSV provided.  Please try again."
     }
   },
   "CsvMissingColumn":{
@@ -238,7 +238,7 @@
     "code": 4000026,
     "error": "csv_missing_column",
     "description": {
-      "en": "Row doesn't have all the required columns defined by headers."
+      "en": "The rows does not have all the required columns defined by the headers in your file.  Please try again."
     }
   },
   "InvalidEmail":{
@@ -246,7 +246,7 @@
     "code": 4000027,
     "error": "invalid_email",
     "description": {
-      "en": "The email value you provided is not allowed."
+      "en": "The email address you provided is invalid. Please try entering it again or use a different email address."
     }
   },
   "InvitationInvalidToken":{
@@ -254,7 +254,7 @@
     "code": 4000029,
     "error": "invitation_token_invalid",
     "description": {
-      "en": "The token is invalid or doen't exist."
+      "en": "The token is invalid or does not exist.  Please try again."
     }
   },
   "InvitationTokenExpired":{
@@ -262,7 +262,7 @@
     "code": 4000035,
     "error": "invitation_token_expired",
     "description": {
-      "en": "The token has been already used."
+      "en": "The token has been already used.  Please use another token."
     }
   },
   "InvalidPartnership":{
@@ -270,7 +270,7 @@
     "code": 4000030,
     "error": "invalid_partnership",
     "description": {
-      "en": "There is not relationship between the User and Organization."
+      "en": "The relationship between the User and Company does not exist.  Please try again."
     }
   },
   "ArgumentsMissedDeletePartnership": {
@@ -278,7 +278,7 @@
     "name": "Error",
     "code": 4090031,
     "description": {
-      "en": "At least you need pass one of this arguments: org, token"
+      "en": "Please provide the following arguments: org, token"
     },
     "status": 400
   },
@@ -287,7 +287,7 @@
     "name": "Error",
     "code": 4090032,
     "description": {
-      "en": "All the arguments are required: name, email, reason, message"
+      "en": "Please provide the following arguments: name, email, reason, message"
     },
     "status": 400
   },
@@ -296,7 +296,7 @@
     "name": "Error",
     "code": 4090033,
     "description": {
-      "en": "The CSV file you provided is not in correct format. Make sure the field are separated with coma."
+      "en": "The CSV file you provided is not in the correct format. Please make sure the fields are separated by a comma and try again."
     },
     "status": 400
   },
@@ -305,7 +305,7 @@
     "code": 4000034,
     "error": "record_id_duplicated_in_csv_file",
     "description": {
-      "en": "Record ID is duplicated into de CSV file."
+      "en": "There is a duplicate Record ID in your CSV file. Please remove one of them and try again."
     }
   },
   "ParentRecordNotExist": {
@@ -313,7 +313,7 @@
     "code": 4090035,
     "error": "parent_record_not_exist",
     "description": {
-      "en": "The parent record specified not exist. Please set a valid parent record for the new variant record."
+      "en": "The Parent Record specified not exist. Please set a valid Parent Record for the new variant record."
     }
   },
   "ResourceAlreadyExist": {
@@ -321,7 +321,7 @@
     "code": 4000036,
     "error": "resource_already_exist",
     "description": {
-      "en": "The resource that you provided already exist."
+      "en": "The resource you provided already exists.  Please try a new ressource."
     }
   },
   "AlreadyPartner": {
@@ -329,7 +329,7 @@
     "code": 4090037,
     "error": "already_partner",
     "description": {
-      "en": "User is already a partner."
+      "en": "This user is already a partner."
     }
   },
   "InvalidPartnership": {
@@ -337,7 +337,7 @@
     "code": 4090038,
     "error": "invalid_user_org",
     "description": {
-      "en": "Invalid User/Organization partnership."
+      "en": "You provided an invalid user/partner.  Please try again."
     }
   },
   "CanNotInviteYourself": {
@@ -345,7 +345,7 @@
     "code": 4090039,
     "error": "can_not_invite_yourself",
     "description": {
-      "en": "Can not invite yourself."
+      "en": "You can not invite yourself. Please try inviting someone else other than yourself."
     }
   },
   "InvalidPrivacy": {
@@ -353,7 +353,7 @@
     "code": 4000040,
     "error": "invalid_privacy_value",
     "description": {
-      "en": "The privacy value you provided is not allowed"
+      "en": "The Privacy setting you have chosen is invalid. Please try another."
     }
   },
   "MissingGroupsNames": {
