@@ -570,7 +570,7 @@
     "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
     "PERMISSION_ERROR": "PermissionError",
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
-    "INVALID_APP_Status": "Invalid_App_Status",
+    "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
     "CONSTANTS": "constants"
   }
