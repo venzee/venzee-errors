@@ -484,12 +484,28 @@
       "en": "You don't have the permission to perform the operation."
     }
   },
-    "ClientIdSecretError": {
+  "ClientIdSecretError": {
     "status": 401,
     "code": 4010057,
     "error": "client_id_secret_error",
     "description": {
       "en": "Unauthorized. Please check client Id and client secret are correct."
+    }
+  },
+  "Invalid_App_Status": {
+    "status": 400,
+    "code": 4000058,
+    "error": "invalid_app_status",
+    "description": {
+      "en": "Application status must be either enabled or disabled (case insensitive)."
+    }
+  },
+  "Invalid_App_Type": {
+    "status": 400,
+    "code": 4000058,
+    "error": "invalid_app_type",
+    "description": {
+      "en": "Application type must be either private or public (case insensitive)."
     }
   },
   "constants": {
@@ -554,6 +570,8 @@
     "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
     "PERMISSION_ERROR": "PermissionError",
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
+    "INVALID_APP_Status": "Invalid_App_Status",
+    "INVALID_APP_TYPE": "Invalid_App_Type",
     "CONSTANTS": "constants"
   }
 }
