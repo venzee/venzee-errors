@@ -502,7 +502,7 @@
   },
   "Invalid_App_Type": {
     "status": 400,
-    "code": 4000058,
+    "code": 4000059,
     "error": "invalid_app_type",
     "description": {
       "en": "Application type must be either private or public (case insensitive)."
