@@ -509,8 +509,8 @@
     }
   },
   "ApplicationDisabled": {
-    "status": 400,
-    "code": 4000060,
+    "status": 403,
+    "code": 4030060,
     "error": "application_disabled",
     "description": {
       "en": "You must enable your application before generating an access token."
