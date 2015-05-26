@@ -508,6 +508,14 @@
       "en": "Application type must be either private or public (case insensitive)."
     }
   },
+  "ApplicationDisabled": {
+    "status": 400,
+    "code": 4000060,
+    "error": "application_disabled",
+    "description": {
+      "en": "You must enable your application before generating an access token."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -572,6 +580,7 @@
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
     "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
+    "APPLICATION_DISABLED": "ApplicationDisabled"
     "CONSTANTS": "constants"
   }
 }
