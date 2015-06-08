@@ -516,6 +516,14 @@
       "en": "You must enable your application before generating an access token."
     }
   },
+  "UpgradeNeeded": {
+    "status": 402,
+    "code": 4020061,
+    "error": "maximum_allowed_integrations_reached",
+    "description": {
+      "en": "you need to upgrade your plan to add more integrations."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -581,6 +589,7 @@
     "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
     "APPLICATION_DISABLED": "ApplicationDisabled",
+    "UPGRADE_NEEDED": "UpgradeNeeded",
     "CONSTANTS": "constants"
   }
 }
