@@ -524,6 +524,14 @@
       "en": "you need to upgrade your plan to add more integrations."
     }
   },
+  "TooManyIntegrations": {
+    "status": 402,
+    "code": 4020062,
+    "error": "too_many_integrations",
+    "description": {
+      "en": "You need to disable some of your integrations before downgrading."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -590,6 +598,7 @@
     "INVALID_APP_TYPE": "Invalid_App_Type",
     "APPLICATION_DISABLED": "ApplicationDisabled",
     "UPGRADE_NEEDED": "UpgradeNeeded",
+    "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
     "CONSTANTS": "constants"
   }
 }
