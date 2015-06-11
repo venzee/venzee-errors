@@ -12,7 +12,7 @@
     "code": 4000012,
     "error": "collection_name_already_exist",
     "description": {
-      "en": "The collection name you provide already exists. Please provide a new collection name."
+      "en": "The collection name you provided already exists. Please provide a new collection name."
     }
   },
   "EmailAlreadyInUse": {
@@ -86,7 +86,7 @@
     "code": 4000010,
     "error": "oauth_error",
     "description": {
-      "en": "Error on get Authentication Token."
+      "en": "Token Error."
     }
   },
   "OrganizationUnavailable": {
@@ -134,7 +134,7 @@
     "code": 4000013,
     "error": "record_id_already_exist",
     "description": {
-      "en": "The Record ID you provided already exists. Please try a different record ID."
+      "en": "The Record ID you provided already exists. Please try a different Record ID."
     }
   },
   "Unknown": {
@@ -166,7 +166,7 @@
     "code": 4000003,
     "error": "user_credentials_required",
     "description": {
-      "en": "Please enter you login information."
+      "en": "Please enter your login information."
     }
   },
   "UsernameUnavailable": {
@@ -174,7 +174,7 @@
     "code": 4000002,
     "error": "username_unavailable",
     "description": {
-      "en": "The username you requested is unavailable."
+      "en": "The username you requested is unavailable. Please provide a new username."
     }
   },
   "VariantChainedCSV": {
@@ -190,7 +190,7 @@
     "code": 4000020,
     "error": "file_size_not_allowed",
     "description": {
-      "en": "The file you provided is too long.  Please try shortening it and try again."
+      "en": "The file name you provided is too long. Please try shortening the name and try again."
     }
   },
   "ExceededImageNumberPerRecord": {
@@ -214,7 +214,7 @@
     "code": 4000023,
     "error": "missing_src_mapping",
     "description": {
-      "en": "The Mapping rules for this catalogue do not exist."
+      "en": "The Mapping Rules for this catalogue do not exist."
     }
   },
   "AttributesDoNotMatch": {
@@ -238,7 +238,7 @@
     "code": 4000026,
     "error": "csv_missing_column",
     "description": {
-      "en": "The rows does not have all the required columns defined by the headers in your file.  Please try again."
+      "en": "The rows do not have all the required columns defined by the headers in your file. Please try again."
     }
   },
   "InvalidEmail":{
@@ -278,7 +278,7 @@
     "name": "Error",
     "code": 4090031,
     "description": {
-      "en": "Please provide the following arguments: org, token"
+      "en": "Please provide the following required parameters: orgname and partner invitation token"
     },
     "status": 400
   },
@@ -369,7 +369,7 @@
     "code": 4020042,
     "error": "stripe_incorrect_number",
     "description": {
-      "en": "Stripe: The card number is incorrect."
+      "en": "Stripe: The credit card number provided is incorrect."
     }
   },
   "StripeInvalidNumber": {
@@ -377,7 +377,7 @@
     "code": 4020043,
     "error": "stripe_invalid_number",
     "description": {
-      "en": "Stripe: The card number is not a valid credit card number."
+      "en": "Stripe: The credit card number is not a valid credit card number."
     }
   },
   "StripeInvalidExpiryMonth": {
@@ -385,7 +385,7 @@
     "code": 4020044,
     "error": "stripe_invalid_expiry_month",
     "description": {
-      "en": "Stripe: The card's expiration month is invalid."
+      "en": "Stripe: The credit card's expiration month is invalid."
     }
   },
   "StripeInvalidExpiryYear": {
@@ -393,7 +393,7 @@
     "code": 4020045,
     "error": "stripe_invalid_expiry_year",
     "description": {
-      "en": "Stripe: The card's expiration year is invalid."
+      "en": "Stripe: The credit card's expiration year is invalid."
     }
   },
   "StripeInvalidCvc": {
@@ -401,7 +401,7 @@
     "code": 4020046,
     "error": "stripe_invalid_cvc",
     "description": {
-      "en": "Stripe: The card's security code is invalid."
+      "en": "Stripe: The credit card's security code is invalid."
     }
   },
   "StripeExpiredCard": {
@@ -417,7 +417,7 @@
     "code": 4020048,
     "error": "stripe_incorrect_cvc",
     "description": {
-      "en": "Stripe: The card's security code is incorrect."
+      "en": "Stripe: The credit card's security code is incorrect."
     }
   },
   "StripeIncorrectZip": {
@@ -425,7 +425,7 @@
     "code": 4020049,
     "error": "stripe_incorrect_zip",
     "description": {
-      "en": "Stripe: The card's zip code failed validation."
+      "en": "Stripe: The credit cardholder's post/zip code is not valid. Please enter a valid post/zip code."
     }
   },
   "StripeCardDeclined": {
@@ -433,7 +433,7 @@
     "code": 4020050,
     "error": "stripe_card_declined",
     "description": {
-      "en": "Stripe: The card was declined."
+      "en": "Stripe: The credit card was declined. Please use a different credit card."
     }
   },
   "StripeMissing": {
@@ -441,7 +441,7 @@
     "code": 4020051,
     "error": "stripe_missing",
     "description": {
-      "en": "Stripe: There is no card on a customer that is being charged."
+      "en": "Stripe: Payment information not found. Please validate your payment information."
     }
   },
   "StripeProcessingError": {
@@ -449,7 +449,7 @@
     "code": 4020052,
     "error": "stripe_processing_error",
     "description": {
-      "en": "Stripe: An error occurred while processing the card."
+      "en": "Stripe: An error occurred while processing the credit card."
     }
   },
   "StripeRateLimit": {
@@ -457,7 +457,7 @@
     "code": 4020053,
     "error": "stripe_rate_limit",
     "description": {
-      "en": "Stripe: An error occurred due to requests hitting the API too quickly."
+      "en": "Stripe: An error occurred due to requests hitting the API too quickly. Please try again."
     }
   },
   "GroupNameAlreadyExists": {
@@ -481,7 +481,7 @@
     "code": 4030056,
     "error": "permission_error",
     "description": {
-      "en": "You don't have the permission to perform the operation."
+      "en": "You don't have permission to perform this operation."
     }
   },
   "ClientIdSecretError": {
@@ -489,7 +489,7 @@
     "code": 4010057,
     "error": "client_id_secret_error",
     "description": {
-      "en": "Unauthorized. Please check client Id and client secret are correct."
+      "en": "Unauthorized. Please check that the client Id and the client secret are correct."
     }
   },
   "Invalid_App_Status": {
