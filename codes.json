@@ -532,6 +532,14 @@
       "en": "You need to disable some of your integrations before downgrading."
     }
   },
+  "CsvMissingRecordId": {
+    "status": 400,
+    "code": 4000063,
+    "error": "csv_missing_record_id",
+    "description": {
+      "en": "Your collection was not updated because we were unable to find the ID column in your CSV file. Please check your file then try again."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -599,6 +607,7 @@
     "APPLICATION_DISABLED": "ApplicationDisabled",
     "UPGRADE_NEEDED": "UpgradeNeeded",
     "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
+    "CSV_MISSING_RECORD_ID":"CsvMissingRecordId",
     "CONSTANTS": "constants"
   }
 }
