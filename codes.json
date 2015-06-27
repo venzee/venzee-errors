@@ -540,6 +540,14 @@
       "en": "Your collection was not updated because we were unable to find the ID column in your CSV file. Please check your file then try again."
     }
   },
+  "NothingToExport": {
+    "status": 404,
+    "code": 40000064,
+    "error": "nothing_to_export",
+    "description": {
+      "en": "there is no data to export."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -608,6 +616,7 @@
     "UPGRADE_NEEDED": "UpgradeNeeded",
     "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
     "CSV_MISSING_RECORD_ID":"CsvMissingRecordId",
+    "NOTHING_TO_EXPORT":"NothingToExport",
     "CONSTANTS": "constants"
   }
 }
