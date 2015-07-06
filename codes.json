@@ -636,7 +636,7 @@
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
     "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
-    "INVALID_USER_ORG_RELATIONSHIP":InvalidUserOrgRelationship,
+    "INVALID_USER_ORG_RELATIONSHIP":"InvalidUserOrgRelationship",
     "APPLICATION_DISABLED": "ApplicationDisabled",
     "UPGRADE_NEEDED": "UpgradeNeeded",
     "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
