@@ -553,7 +553,15 @@
     "code": 40900065,
     "error": "user_already_exists",
     "description": {
-      "en": "The email you provided is a current venzee user. Only non-venzee users can be invited."
+      "en": "The email you provided belongs to a current venzee user. Only non-venzee users can be invited."
+    }
+  },
+  "UserAlreadyBelongsToInviteOrg": {
+    "status": 409,
+    "code": 40900066,
+    "error": "user_already_belongs_to_invite_org",
+    "description": {
+      "en": "That user already belongs to your organization."
     }
   },
   "constants": {
@@ -626,6 +634,7 @@
     "CSV_MISSING_RECORD_ID":"CsvMissingRecordId",
     "NOTHING_TO_EXPORT":"NothingToExport",
     "USER_ALREADY_EXISTS":"UserAlreadyExists",
+    "USER_ALREADY_BELONGS_TO_INVITE_ORG":"UserAlreadyBelongsToInviteOrg",
     "CONSTANTS": "constants"
   }
 }
