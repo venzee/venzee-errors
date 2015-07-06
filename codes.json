@@ -161,6 +161,14 @@
       "en": "The user is already a member of an organization. A user can't create/belongs to multiple organizations."
     }
   },
+  "InvalidUserOrgRelationship": {
+    "status": 400,
+    "code": 4000070,
+    "error": "invalid_user_org_relationship",
+    "description": {
+      "en": "The user doesn't belong to an organization or belong to more than one organization."
+    }
+  },
   "UserCredentialsRequired": {
     "status": 400,
     "code": 4000003,
@@ -620,6 +628,7 @@
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
     "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
+    "INVALID_USER_ORG_RELATIONSHIP":InvalidUserOrgRelationship,
     "APPLICATION_DISABLED": "ApplicationDisabled",
     "UPGRADE_NEEDED": "UpgradeNeeded",
     "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
