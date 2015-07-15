@@ -572,6 +572,14 @@
       "en": "That user already belongs to your organization."
     }
   },
+  "UserIsNotAuthorizedToUseBilling": {
+    "status": 402,
+    "code": 40900067,
+    "error": "user_is_not_authorized_to_use_billing",
+    "description": {
+      "en": "User is not authorized to use billing."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -644,6 +652,7 @@
     "NOTHING_TO_EXPORT":"NothingToExport",
     "USER_ALREADY_EXISTS":"UserAlreadyExists",
     "USER_ALREADY_BELONGS_TO_INVITE_ORG":"UserAlreadyBelongsToInviteOrg",
+    "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
     "CONSTANTS": "constants"
   }
 }
