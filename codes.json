@@ -580,6 +580,22 @@
       "en": "User is not authorized to use billing."
     }
   },
+  "CanNotChangeSelfRole": {
+    "status": 403,
+    "code": 40300061,
+    "error": "you_cannot_change_your_role",
+    "description": {
+      "en": "User cannot change self role."
+    }
+  },
+  "MustBeAtLeastOneAdminPerOrg": {
+    "status": 403,
+    "code": 40300062,
+    "error": "Must_Be_At_Least_One_Admin_Per_Org",
+    "description": {
+      "en": "there must be at least one admin per organization."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -653,6 +669,8 @@
     "USER_ALREADY_EXISTS":"UserAlreadyExists",
     "USER_ALREADY_BELONGS_TO_INVITE_ORG":"UserAlreadyBelongsToInviteOrg",
     "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
+    "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
+    "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg"
     "CONSTANTS": "constants"
   }
 }
