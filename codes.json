@@ -670,7 +670,7 @@
     "USER_ALREADY_BELONGS_TO_INVITE_ORG":"UserAlreadyBelongsToInviteOrg",
     "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
     "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
-    "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg"
+    "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
     "CONSTANTS": "constants"
   }
 }
