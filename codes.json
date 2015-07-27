@@ -228,7 +228,7 @@
   "AttributesDoNotMatch": {
     "status": 400,
     "code": 4000024,
-    "error": "missing_src_mapping",
+    "error": "attributes_do_not_match",
     "description": {
       "en": "The columns of this file do not match the columns for this group.  Please try again."
     }
