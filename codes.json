@@ -596,6 +596,14 @@
       "en": "there must be at least one admin per organization."
     }
   },
+  "InvalidCollectionMapping": {
+    "status": 400,
+    "code": 4000060,
+    "error": "invalid_collection_mapping",
+    "description": {
+      "en": "The Venzee mapping is invalid. You need to map the fields : recordId (required) , name(optional), cost(optional) and map (optional)."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -671,6 +679,7 @@
     "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
     "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
     "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
-    "CONSTANTS": "constants"
+    "CONSTANTS": "constants",
+    "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping"
   }
 }
