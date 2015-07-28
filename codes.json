@@ -604,6 +604,14 @@
       "en": "The Venzee mapping is invalid. You need to map the fields : recordId (required) , name(optional), cost(optional) and map (optional)."
     }
   },
+  "InvalidEmailNotificationsFrequency": {
+    "status": 400,
+    "code": 4000071,
+    "error": "invalid_email_notifications_frequency",
+    "description": {
+      "en": "User's email notifications frequency must be on of the following: (never, immediately, everyfifteenminutes, hourly, and daily)."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -680,6 +688,7 @@
     "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
     "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
     "CONSTANTS": "constants",
-    "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping"
+    "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping",
+    "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency"
   }
 }
