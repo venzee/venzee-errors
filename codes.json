@@ -612,6 +612,14 @@
       "en": "User's email notifications frequency must be on of the following: (never, immediately, everyfifteenminutes, hourly, and daily)."
     }
   },
+  "UserDoesNotBelongToOrg": {
+    "status": 401,
+    "code": 4010072,
+    "error": "user_does_not_belong_to_org",
+    "description": {
+      "en": "User doesn\'t belong to organization."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -689,6 +697,7 @@
     "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
     "CONSTANTS": "constants",
     "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping",
-    "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency"
+    "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency",
+    "USER_DOES_NOT_BELONG_TO_ORG": "UserDoesNotBelongToOrg"
   }
 }
