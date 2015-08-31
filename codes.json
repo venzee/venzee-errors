@@ -628,6 +628,22 @@
       "en": "The inviter company can't be in a partnership with itself."
     }
   },
+  "MissingCustomEmailSubject": {
+    "status": 400,
+    "code": 4000074,
+    "error": "missing_custom_email_subject",
+    "description": {
+      "en": "Custom email subject is required."
+    }
+  },
+  "MissingCustomEmailMessage": {
+    "status": 400,
+    "code": 4000074,
+    "error": "missing_custom_email_message",
+    "description": {
+      "en": "Custom email message is required."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -707,6 +723,8 @@
     "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping",
     "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency",
     "USER_DOES_NOT_BELONG_TO_ORG": "UserDoesNotBelongToOrg",
-    "CAN_NOT_ACCEPT_INVITATION_WITH_SAME_ORG": "CanNotAcceptInvitationWithSameOrg"
+    "CAN_NOT_ACCEPT_INVITATION_WITH_SAME_ORG": "CanNotAcceptInvitationWithSameOrg",
+    "MISSING_CUSTOM_EMAIL_SUBJECT": "MissingCustomEmailSubject",
+    "MISSING_CUSTOM_EMAIL_MESSAGE": "MissingCustomEmailMessage"
   }
 }
