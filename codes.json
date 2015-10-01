@@ -668,12 +668,20 @@
       "en": "Record data type is invalid, must be a JSON object."
     }
   },
-   "RecordIdRequired": {
+  "RecordIdRequired": {
     "status": 410,
     "code": 4000078,
     "error": "record_id_is_required",
     "description": {
       "en": "The field recordId is required in the product record."
+    }
+  },
+  "RecordIdDuplicated": {
+    "status": 410,
+    "code": 4000079,
+    "error": "record_id_duplicated",
+    "description": {
+      "en": "The field recordId is duplicated in your batch."
     }
   },
   "constants": {
@@ -761,6 +769,7 @@
     "EMPTY_RECORD_BATCH": "EmptyRecordBatch ",
     "RECORD_BATCH_LIMIT" : "RecordBatchLimit",
     "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType",
-    "RECORDID_REQUIRED": "RecordIdRequired"
+    "RECORDID_REQUIRED": "RecordIdRequired",
+    "RECORD_ID_DUPLICATED": "RecordIdDuplicated"
   }
 }
