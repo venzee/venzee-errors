@@ -668,6 +668,14 @@
       "en": "Record data type is invalid, must be a JSON object."
     }
   },
+   "RecordIdRequired": {
+    "status": 410,
+    "code": 4000078,
+    "error": "record_id_is_required",
+    "description": {
+      "en": "The field recordId is required in the product record."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -752,6 +760,7 @@
     "MISSING_CUSTOM_EMAIL_MESSAGE": "MissingCustomEmailMessage",
     "EMPTY_RECORD_BATCH": "EmptyRecordBatch ",
     "RECORD_BATCH_LIMIT" : "RecordBatchLimit",
-    "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType"
+    "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType",
+    "RECORDID_REQUIRED": "RecordIdRequired"
   }
 }
