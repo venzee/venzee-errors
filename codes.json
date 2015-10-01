@@ -660,6 +660,14 @@
       "en": "Record batch size is over the limit."
     }
   },
+  "InvalidRecordDataType": {
+    "status": 400,
+    "code": 4000077,
+    "error": "invalid_record_data_type",
+    "description": {
+      "en": "Record data type is invalid, must be a JSON object."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -743,6 +751,7 @@
     "MISSING_CUSTOM_EMAIL_SUBJECT": "MissingCustomEmailSubject",
     "MISSING_CUSTOM_EMAIL_MESSAGE": "MissingCustomEmailMessage",
     "EMPTY_RECORD_BATCH": "EmptyRecordBatch ",
-    "RECORD_BATCH_LIMIT" : "RecordBatchLimit"
+    "RECORD_BATCH_LIMIT" : "RecordBatchLimit",
+    "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType"
   }
 }
