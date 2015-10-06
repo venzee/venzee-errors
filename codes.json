@@ -684,6 +684,14 @@
       "en": "The field recordId is duplicated in your batch."
     }
   },
+  "RecordArrayExpected": {
+    "status": 400,
+    "code": 4000080,
+    "error": "record_array_expected",
+    "description": {
+      "en": "Records parameter should be an array of records."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -770,6 +778,7 @@
     "RECORD_BATCH_LIMIT" : "RecordBatchLimit",
     "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType",
     "RECORDID_REQUIRED": "RecordIdRequired",
-    "RECORD_ID_DUPLICATED": "RecordIdDuplicated"
+    "RECORD_ID_DUPLICATED": "RecordIdDuplicated",
+    "RECORD_ARRAY_EXPECTED": "RecordArrayExpected"
   }
 }
