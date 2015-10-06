@@ -669,7 +669,7 @@
     }
   },
   "RecordIdRequired": {
-    "status": 410,
+    "status": 400,
     "code": 4000078,
     "error": "record_id_is_required",
     "description": {
@@ -677,7 +677,7 @@
     }
   },
   "RecordIdDuplicated": {
-    "status": 410,
+    "status": 400,
     "code": 4000079,
     "error": "record_id_duplicated",
     "description": {
