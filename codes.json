@@ -692,6 +692,14 @@
       "en": "Records parameter should be an array of records."
     }
   },
+  "InvalidRecordProperty": {
+    "status": 400,
+    "code": 4000081,
+    "error": "invalid_record_property",
+    "description": {
+      "en": "Record has an invalid property."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -779,6 +787,7 @@
     "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType",
     "RECORDID_REQUIRED": "RecordIdRequired",
     "RECORD_ID_DUPLICATED": "RecordIdDuplicated",
-    "RECORD_ARRAY_EXPECTED": "RecordArrayExpected"
+    "RECORD_ARRAY_EXPECTED": "RecordArrayExpected",
+    "INVALID_RECORD_PROPERTY": "InvalidRecordProperty"
   }
 }
