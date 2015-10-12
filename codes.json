@@ -700,6 +700,14 @@
       "en": "Record has an invalid property."
     }
   },
+  "InvalidNotificationTemplate": {
+    "status": 400,
+    "code": 4000082,
+    "error": "invalid_notification_template",
+    "description": {
+      "en": "The notification template doesn't exist."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -788,6 +796,8 @@
     "RECORDID_REQUIRED": "RecordIdRequired",
     "RECORD_ID_DUPLICATED": "RecordIdDuplicated",
     "RECORD_ARRAY_EXPECTED": "RecordArrayExpected",
-    "INVALID_RECORD_PROPERTY": "InvalidRecordProperty"
+    "INVALID_RECORD_PROPERTY": "InvalidRecordProperty",
+    "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate"
+  
   }
 }
