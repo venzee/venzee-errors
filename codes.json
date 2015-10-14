@@ -708,6 +708,14 @@
       "en": "The notification template doesn't exist."
     }
   },
+  "EnvironmentVariableMissing": {
+    "status": 400,
+    "code": 4000083,
+    "error": "environment_variable_missing",
+    "description": {
+      "en": "An environment variable is missing in the configuration."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -797,7 +805,7 @@
     "RECORD_ID_DUPLICATED": "RecordIdDuplicated",
     "RECORD_ARRAY_EXPECTED": "RecordArrayExpected",
     "INVALID_RECORD_PROPERTY": "InvalidRecordProperty",
-    "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate"
-  
+    "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate",
+    "ENV_VAR_MISSING": "EnvironmentVariableMissing"
   }
 }
