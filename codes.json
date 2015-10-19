@@ -716,7 +716,7 @@
       "en": "An environment variable is missing in the configuration."
     }
   },
-  "Invalid_MapMonitoring_Type": {
+  "InvalidMapMonitoringType": {
     "status": 400,
     "code": 4000084,
     "error": "invalid_mapmonitoring_type",
@@ -724,7 +724,7 @@
       "en": "MapMonitoring type must be either pricing, multiplierbycollection, or multiplierbyrecord (case insensitive)."
     }
   },
-  "Invalid_MapMonitoring_Status": {
+  "InvalidMapMonitoringStatus": {
     "status": 400,
     "code": 4000085,
     "error": "invalid_mapmonitoring_status",
