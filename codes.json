@@ -716,6 +716,22 @@
       "en": "An environment variable is missing in the configuration."
     }
   },
+  "InvalidMapMonitoringType": {
+    "status": 400,
+    "code": 4000084,
+    "error": "invalid_mapmonitoring_type",
+    "description": {
+      "en": "MapMonitoring type must be either pricing, multiplierbycollection, or multiplierbyrecord (case insensitive)."
+    }
+  },
+  "InvalidMapMonitoringStatus": {
+    "status": 400,
+    "code": 4000085,
+    "error": "invalid_mapmonitoring_status",
+    "description": {
+      "en": "MapMonitoring status must be either enabled or disabled (case insensitive)."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -806,6 +822,8 @@
     "RECORD_ARRAY_EXPECTED": "RecordArrayExpected",
     "INVALID_RECORD_PROPERTY": "InvalidRecordProperty",
     "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate",
-    "ENV_VAR_MISSING": "EnvironmentVariableMissing"
+    "ENV_VAR_MISSING": "EnvironmentVariableMissing",
+    "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
+    "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus"
   }
 }
