@@ -732,6 +732,14 @@
       "en": "MapMonitoring status must be either enabled or disabled (case insensitive)."
     }
   },
+  "InvalidFormat": {
+    "status": 400,
+    "code": 4000086,
+    "error": "invalid_format",
+    "description": {
+      "en": "The chosen format is not supported."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -807,7 +815,6 @@
     "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
     "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
     "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
-    "CONSTANTS": "constants",
     "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping",
     "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency",
     "USER_DOES_NOT_BELONG_TO_ORG": "UserDoesNotBelongToOrg",
@@ -824,6 +831,8 @@
     "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate",
     "ENV_VAR_MISSING": "EnvironmentVariableMissing",
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
-    "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus"
+    "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
+    "INVALID_FORMAT": "InvalidFormat",
+    "CONSTANTS": "constants"
   }
 }
