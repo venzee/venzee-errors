@@ -732,10 +732,10 @@
       "en": "MapMonitoring status must be either enabled or disabled (case insensitive)."
     }
   },
-  "InvalidFormat": {
+  "InvalidExportingFormat": {
     "status": 400,
     "code": 4000086,
-    "error": "invalid_format",
+    "error": "invalid_exporting_format",
     "description": {
       "en": "The chosen format is not supported."
     }
@@ -832,7 +832,7 @@
     "ENV_VAR_MISSING": "EnvironmentVariableMissing",
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
-    "INVALID_FORMAT": "InvalidFormat",
+    "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
     "CONSTANTS": "constants"
   }
 }
