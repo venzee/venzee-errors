@@ -841,7 +841,7 @@
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
-    "EMAILALREADYUNSUBSCRIBED": "EmailAlreadyUnsubscribed",
+    "EMAIL_ALREADY_UNSUBSCRIBED": "EmailAlreadyUnsubscribed",
     "CONSTANTS": "constants"
   }
 }
