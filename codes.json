@@ -740,6 +740,14 @@
       "en": "The chosen format is not supported."
     }
   },
+  "EmailAlreadyUnsubscribed": {
+    "status": 409,
+    "code": 4090087,
+    "error": "email_already_unsubscribed",
+    "description": {
+      "en": "The email you provided is already unsubscribed."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -833,6 +841,7 @@
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
+    "EMAILALREADYUNSUBSCRIBED": "EmailAlreadyUnsubscribed",
     "CONSTANTS": "constants"
   }
 }
