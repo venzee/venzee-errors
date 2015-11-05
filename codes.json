@@ -740,6 +740,30 @@
       "en": "The chosen format is not supported."
     }
   },
+  "EmailAlreadyUnsubscribed": {
+    "status": 409,
+    "code": 4090087,
+    "error": "email_already_unsubscribed",
+    "description": {
+      "en": "The email you provided is already unsubscribed."
+    }
+  },
+  "InvalidSpreadsheetFormat": {
+    "status": 409,
+    "code": 4090088,
+    "error": "invalid_spreadsheet_format",
+    "description": {
+      "en": "The spreadsheet file you provided is not in the correct format. Please make sure that the headers are in the first row in your file and try again."
+    }
+  },
+  "InvalidExcelWithMergedCells": {
+    "status": 409,
+    "code": 4090089,
+    "error": "invalid_excel_with_merged_cells",
+    "description": {
+      "en": "The spreadsheet you provided contains merged cells. Please make sure your file doesn't contain any merged cells and try again."
+    }
+  },
   "TransformInvalidFieldRequired": {
     "status": 400,
     "code": 400200,
@@ -905,6 +929,9 @@
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
+    "EMAIL_ALREADY_UNSUBSCRIBED": "EmailAlreadyUnsubscribed",
+    "INVALID_SPREADSHEET_FORMAT": "InvalidSpreadsheetFormat",
+    "INVALID_EXCEL_WITH_MERGED_CELLS": "InvalidExcelWithMergedCells",
     "TRANSFORM_INVALID_FIELD_REQUIRED": "TransformInvalidFieldRequired",
     "TRANSFORM_INVALID_FIELD_UNIQUE": "TransformInvalidFieldUnique",
     "TRANSFORM_INVALID_FIELD_LIMIT": "TransformInvalidFieldLimit",
