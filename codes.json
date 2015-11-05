@@ -740,6 +740,78 @@
       "en": "The chosen format is not supported."
     }
   },
+  "TransformInvalidFieldRequired": {
+    "status": 400,
+    "code": 400200,
+    "error": "transform_invalid_field_required",
+    "description": {
+      "en": "The field value is required."
+    }
+  },
+  "TransformInvalidFieldUnique": {
+    "status": 400,
+    "code": 400201,
+    "error": "transform_invalid_field_unique",
+    "description": {
+      "en": "The field value is not unique."
+    }
+  },
+  "TransformInvalidFieldLimit": {
+    "status": 400,
+    "code": 400202,
+    "error": "transform_invalid_field_limit",
+    "description": {
+      "en": "The field value is too long."
+    }
+  },
+  "TransformInvalidFieldInteger": {
+    "status": 400,
+    "code": 400203,
+    "error": "transform_invalid_field_integer",
+    "description": {
+      "en": "The field value is not a valid integer."
+    }
+  },
+  "TransformInvalidFieldFloat": {
+    "status": 400,
+    "code": 400204,
+    "error": "transform_invalid_field_float",
+    "description": {
+      "en": "The field value is not a valid decimal number."
+    }
+  },
+  "TransformInvalidFieldUrl": {
+    "status": 400,
+    "code": 400205,
+    "error": "transform_invalid_field_url",
+    "description": {
+      "en": "The field value is not a valid URL."
+    }
+  },
+  "TransformInvalidCustomAttribute": {
+    "status": 400,
+    "code": 400220,
+    "error": "transform_invalid_custom_attribute",
+    "description": {
+      "en": "The custom attribute calculation failed."
+    }
+  },
+  "TransformUndefinedCustomAttribute": {
+    "status": 400,
+    "code": 400221,
+    "error": "transform_undefined_custom_attribute",
+    "description": {
+      "en": "The custom attribute is undefined."
+    }
+  },
+  "TransformCircularDependency": {
+    "status": 400,
+    "code": 400222,
+    "error": "transform_circular_dependency",
+    "description": {
+      "en": "Circular dependency detected."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -833,6 +905,15 @@
     "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
+    "TRANSFORM_INVALID_FIELD_REQUIRED": "TransformInvalidFieldRequired",
+    "TRANSFORM_INVALID_FIELD_UNIQUE": "TransformInvalidFieldUnique",
+    "TRANSFORM_INVALID_FIELD_LIMIT": "TransformInvalidFieldLimit",
+    "TRANSFORM_INVALID_FIELD_INTEGER": "TransformInvalidFieldInteger",
+    "TRANSFORM_INVALID_FIELD_FLOAT": "TransformInvalidFieldFloat",
+    "TRANSFORM_INVALID_FIELD_URL": "TransformInvalidFieldUrl",
+    "TRANSFORM_INVALID_CUSTOM_ATTRIBUTE": "TransformInvalidCustomAttribute",
+    "TRANSFORM_UNDEFINED_CUSTOM_ATTRIBUTE": "TransformUndefinedCustomAttribute",
+    "TRANSFORM_CIRCULAR_DEPENDENCY": "TransformCircularDependency",
     "CONSTANTS": "constants"
   }
 }
