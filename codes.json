@@ -748,6 +748,22 @@
       "en": "The email you provided is already unsubscribed."
     }
   },
+  "InvalidSpreadsheetFormat": {
+    "status": 409,
+    "code": 4090088,
+    "error": "invalid_spreadsheet_format",
+    "description": {
+      "en": "The spreadsheet file you provided is not in the correct format. Please make sure that the headers are in the first row in your file and try again."
+    }
+  },
+  "InvalidExcelWithMergedCells": {
+    "status": 409,
+    "code": 4090089,
+    "error": "invalid_excel_with_merged_cells",
+    "description": {
+      "en": "The spreadsheet you provided contains merged cells. Please make sure your file doesn't contain any merged cells and try again."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -842,6 +858,8 @@
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
     "EMAIL_ALREADY_UNSUBSCRIBED": "EmailAlreadyUnsubscribed",
+    "INVALID_SPREADSHEET_FORMAT": "InvalidSpreadsheetFormat",
+    "INVALID_EXCEL_WITH_MERGED_CELLS": "InvalidExcelWithMergedCells",
     "CONSTANTS": "constants"
   }
 }
