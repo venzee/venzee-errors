@@ -836,6 +836,14 @@
       "en": "Circular dependency detected."
     }
   },
+  "RecordIdUndefined": {
+    "status": 400,
+    "code": 4000090,
+    "error": "record_id_undefined",
+    "description": {
+      "en": "One (or more) records does not have a unique identifier (Record Id). Please check your spreadsheet and try again."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -941,6 +949,7 @@
     "TRANSFORM_INVALID_CUSTOM_ATTRIBUTE": "TransformInvalidCustomAttribute",
     "TRANSFORM_UNDEFINED_CUSTOM_ATTRIBUTE": "TransformUndefinedCustomAttribute",
     "TRANSFORM_CIRCULAR_DEPENDENCY": "TransformCircularDependency",
+    "RECORD_ID_UNDEFINED": "RecordIdUndefined",
     "CONSTANTS": "constants"
   }
 }
