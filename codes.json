@@ -852,6 +852,14 @@
       "en": "the list of collections to be added/updated is empty"
     }
   },
+  "CollectionSharedOrInIntegration": {
+    "status": 400,
+    "code": 4000089,
+    "error": "collection_shared_or_in_integration",
+    "description": {
+      "en": "Collection should not be shared or used in integration."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -960,6 +968,7 @@
     "TRANSFORM_CIRCULAR_DEPENDENCY": "TransformCircularDependency",
     "RECORD_ID_UNDEFINED": "RecordIdUndefined",
     "EMPTY_COLLECTION_LIST": "EmptyCollectionList",
+    "COLLECTION_SHARED_OR_IN_INTEGRATION" :"CollectionSharedOrInIntegration",
     "CONSTANTS": "constants"
   }
 }
