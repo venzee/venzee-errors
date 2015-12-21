@@ -860,10 +860,19 @@
       "en": "Collection should not be shared or used in integration."
     }
   },
+  "InvalidCopyAction": {
+    "status": 400,
+    "code": 4000090,
+    "error": "invalid_copy_action",
+    "description": {
+      "en": "Action parameter should be 'exclude' or 'include'."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
+    "INVALID_COPY_ACTION": "InvalidCopyAction",
     "EMAIL_ALREADY_IN_USE": "EmailAlreadyInUse",
     "EMPTY_CSV_FILE": "EmptyCsvFile",
     "FILE_NOT_ALLOWED": "FileNotAllowed",
