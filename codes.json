@@ -868,6 +868,54 @@
       "en": "Action parameter should be 'exclude' or 'include'."
     }
   },
+  "BadRequest": {
+    "status": 400,
+    "code": 4000091,
+    "error": "bad_request",
+    "description": {
+      "en": "This is an invalid request."
+    }
+  },
+  "UnauthorizedApiAccess": {
+    "status": 401,
+    "code": 4010092,
+    "error": "unauthorized_api_access",
+    "description": {
+      "en": "Access is denied, please check your API key."
+    }
+  },
+  "MethodNotAllowed": {
+    "status": 405,
+    "code": 4050093,
+    "error": "method_not_allowed",
+    "description": {
+      "en": "Invalid method provided."
+    }
+  },
+  "InvalidFormat": {
+    "status": 406,
+    "code": 4060094,
+    "error": "invalid_format",
+    "description": {
+      "en": "You requested a format that isn't JSON."
+    }
+  },
+  "TooManyRequests": {
+    "status": 429,
+    "code": 4290095,
+    "error": "too_many_requests",
+    "description": {
+      "en": "You're performing too many requests."
+    }
+  },
+  "IntegrationServiceDown": {
+    "status": 503,
+    "code": 5030096,
+    "error": "integration_service_down",
+    "description": {
+      "en": "The integration service is currently down."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -978,6 +1026,12 @@
     "RECORD_ID_UNDEFINED": "RecordIdUndefined",
     "EMPTY_COLLECTION_LIST": "EmptyCollectionList",
     "COLLECTION_SHARED_OR_IN_INTEGRATION" :"CollectionSharedOrInIntegration",
+    "BAD_REQUEST": "BadRequest",
+    "UNAUTHORIZED_API_ACCESS": "UnauthorizedApiAccess",
+    "METHOD_NOT_ALLOWED": "MethodNotAllowed",
+    "INVALID_FORMAT": "InvalidFormat",
+    "TOO_MANY_REQUESTS": "TooManyRequests",
+    "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
     "CONSTANTS": "constants"
   }
 }
