@@ -921,7 +921,7 @@
     "code": 4000092,
     "error": "template_name_error",
     "description": {
-      "en": "Template name is too long. Template Name should be with in 64 characters."
+      "en": "Please shorten your template title to 64 characters or less."
     }
   },
 
