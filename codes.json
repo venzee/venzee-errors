@@ -931,7 +931,7 @@
     "description": {
       "en": "Your subscription is invalid because past due, canceled or unpaid."
     }
-  } 
+  }, 
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
