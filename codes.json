@@ -924,6 +924,14 @@
       "en": "Please shorten your template title to 64 characters or less."
     }
   },
+  "StripeSubscriptionInvalid": {
+    "status": 400,
+    "code": 4000093,
+    "error": "stripe_subscription_invalid",
+    "description": {
+      "en": "Your subscription is invalid because past due, canceled or unpaid."
+    }
+  } 
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -984,6 +992,7 @@
     "STRIPE_MISSING":"StripeMissing",
     "STRIPE_PROCESSING_ERROR":"StripeProcessingError",
     "STRIPE_RATE_LIMIT":"StripeRateLimit",
+    "STRIPE_SUBSCRIPTION_INVALID": "StripeSubscriptionInvalid",
     "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
     "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
     "PERMISSION_ERROR": "PermissionError",
