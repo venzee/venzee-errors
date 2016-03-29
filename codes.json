@@ -270,7 +270,7 @@
     "code": 4000035,
     "error": "invitation_token_expired",
     "description": {
-      "en": "The token has been already used.  Please use another token."
+      "en": "It looks like this invite has been used. Please login or have the user who registered on Venzee, invite you as a user."
     }
   },
   "InvalidPartnership":{
