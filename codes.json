@@ -262,7 +262,7 @@
     "code": 4000029,
     "error": "invitation_token_invalid",
     "description": {
-      "en": "The token is invalid or does not exist.  Please try again."
+      "en": "It looks like this invite is invalid. Please have the partner who invited you to join Venzee, invite you again."
     }
   },
   "InvitationTokenExpired":{
