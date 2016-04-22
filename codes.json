@@ -931,7 +931,15 @@
     "description": {
       "en": "Your subscription is invalid because past due, canceled or unpaid."
     }
-  }, 
+  },
+  "VendorEmailInvalidAttachment": {
+    "status": 400,
+    "code": 400223,
+    "error": "vendor_email_invalid_attachment",
+    "description": {
+      "en": "Attachment file is not present or is invalid."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1050,6 +1058,7 @@
     "INVALID_FORMAT": "InvalidFormat",
     "TOO_MANY_REQUESTS": "TooManyRequests",
     "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
+    "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
     "CONSTANTS": "constants"
   }
 }
