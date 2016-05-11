@@ -1067,7 +1067,7 @@
     "TOO_MANY_REQUESTS": "TooManyRequests",
     "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
     "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
-    "GROUPS_NOT_EXITS": "GroupsNotExists",
+    "GROUPS_NOT_EXISTS": "GroupsNotExists",
     "CONSTANTS": "constants"
   }
 }
