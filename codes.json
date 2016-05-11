@@ -940,6 +940,14 @@
       "en": "Attachment file is not present or is invalid."
     }
   },
+  "GroupsNotExists": {
+    "status": 400,
+    "code": 4000094,
+    "error": "groups_not_exists",
+    "description": {
+      "en": "Some groups not exists."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1059,6 +1067,7 @@
     "TOO_MANY_REQUESTS": "TooManyRequests",
     "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
     "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
+    "GROUPS_NOT_EXITS": "GroupsNotExists",
     "CONSTANTS": "constants"
   }
 }
