@@ -753,7 +753,7 @@
     "code": 4090088,
     "error": "invalid_spreadsheet_format",
     "description": {
-      "en": "The spreadsheet file you provided is not in the correct format. Please make sure that the headers are in the first row in your file and try again."
+      "en": "The spreadsheet file you provided is not in the correct format. Please make sure that the headers are in the specified row in your file and try again."
     }
   },
   "InvalidExcelWithMergedCells": {
