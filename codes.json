@@ -948,6 +948,14 @@
       "en": "Some groups not exists."
     }
   },
+    "InvalidFilterOption": {
+    "status": 400,
+    "code": 4000095,
+    "error": "invalid_filter_option",
+    "description": {
+      "en": "Invalid filter option."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1068,6 +1076,7 @@
     "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
     "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
     "GROUPS_NOT_EXISTS": "GroupsNotExists",
-    "CONSTANTS": "constants"
+    "CONSTANTS": "constants",
+    "INVALID_FILTER_OPTION": "InvalidFilterOption"
   }
 }
