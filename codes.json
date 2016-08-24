@@ -956,6 +956,14 @@
       "en": "Invalid filter option."
     }
   },
+  "MissingInputOrOutputCollection": {
+    "status": 400,
+    "code": 4000096,
+    "error": "missing_input_output_collection",
+    "description": {
+      "en": "You must specify at least one input collection and one output collection."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1077,6 +1085,7 @@
     "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
     "GROUPS_NOT_EXISTS": "GroupsNotExists",
     "CONSTANTS": "constants",
-    "INVALID_FILTER_OPTION": "InvalidFilterOption"
+    "INVALID_FILTER_OPTION": "InvalidFilterOption",
+    "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection"
   }
 }
