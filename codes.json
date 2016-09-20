@@ -964,6 +964,14 @@
       "en": "You must specify at least one input collection and one output collection."
     }
   },
+  "XlsColumnLimitation": {
+    "status": 400,
+    "code": 4000097,
+    "error": "xls_column_limit_exceeded",
+    "description": {
+      "en": "xls can't contain more than 256 columns"
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1086,6 +1094,7 @@
     "GROUPS_NOT_EXISTS": "GroupsNotExists",
     "CONSTANTS": "constants",
     "INVALID_FILTER_OPTION": "InvalidFilterOption",
-    "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection"
+    "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection",
+    "XLS_COLUMN_LIMITATION": "XlsColumnLimitation"
   }
 }
