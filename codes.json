@@ -340,7 +340,7 @@
       "en": "This user is already a partner."
     }
   },
-  "InvalidPartnership": {
+  "InvalidPartnershipDeprecated": {
     "status": 400,
     "code": 4090038,
     "error": "invalid_user_org",
@@ -852,12 +852,12 @@
       "en": "the list of collections to be added/updated is empty"
     }
   },
-  "CollectionSharedOrInIntegration": {
+  "CollectionShared": {
     "status": 400,
     "code": 4000089,
-    "error": "collection_shared_or_in_integration",
+    "error": "collection_shared",
     "description": {
-      "en": "Collection should not be shared or used in integration."
+      "en": "Collection should not be shared."
     }
   },
   "InvalidCopyAction": {
@@ -972,6 +972,14 @@
       "en": "xls can't contain more than 256 columns"
     }
   },
+  "CollectionUsedInTransformation": {
+    "status": 400,
+    "code": 4000098,
+    "error": "collection_used_in_transformation",
+    "description": {
+      "en": "Collection should not be used in transformation."
+    }
+  },
 
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
@@ -1010,12 +1018,13 @@
     "CSV_RECORD_ID_DUPLICATED": "CsvRecordIdDuplicated",
     "INVITATION_INVALID_TOKEN": "InvitationInvalidToken",
     "INVITATION_TOKEN_EXPIRED": "InvitationTokenExpired",
-    "INVALID_PARTNERSHIP": "InvalidPartnership",
+    "INVALID_PARTNERSHIP_DEPRECATED": "InvalidPartnershipDeprecated",
     "ARGUMENTS_MISSED_DELETE_PARTNERSHIP": "ArgumentsMissedDeletePartnership",
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
     "ALREADY_PARTNER":"AlreadyPartner",
+    "INVALID_PARTNERSHIP":"InvalidPartnership",
     "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
     "INVALID_PRIVACY":"InvalidPrivacy",
     "MISSING_GROUPS_NAMES":"MissingGroupsNames",
@@ -1082,7 +1091,7 @@
     "TRANSFORM_CIRCULAR_DEPENDENCY": "TransformCircularDependency",
     "RECORD_ID_UNDEFINED": "RecordIdUndefined",
     "EMPTY_COLLECTION_LIST": "EmptyCollectionList",
-    "COLLECTION_SHARED_OR_IN_INTEGRATION" :"CollectionSharedOrInIntegration",
+    "COLLECTION_SHARED" :"CollectionShared",
     "BAD_REQUEST": "BadRequest",
     "UNAUTHORIZED_API_ACCESS": "UnauthorizedApiAccess",
     "METHOD_NOT_ALLOWED": "MethodNotAllowed",
@@ -1094,6 +1103,7 @@
     "CONSTANTS": "constants",
     "INVALID_FILTER_OPTION": "InvalidFilterOption",
     "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection",
-    "XLS_COLUMN_LIMITATION": "XlsColumnLimitation"
+    "XLS_COLUMN_LIMITATION": "XlsColumnLimitation",
+    "COLLECTION_USED_IN_TRANSFORMATION" :"CollectionUsedInTransformation"
   }
 }
