@@ -979,8 +979,31 @@
     "description": {
       "en": "Collection should not be used in transformation."
     }
+  }, 
+  "TemplateDeliveryInvalid": {
+    "status": 400,
+    "code": 4000099,
+    "error": "template_delivery_invalid",
+    "description": {
+      "en": "Delivery method object is not valid."
+    }
   },
-
+  "TemplateDeliveryFileInvalid": {
+    "status": 400,
+    "code": 4000100,
+    "error": "template_delivery_file_invalid",
+    "description": {
+      "en": "Delivery method for file option is not valid."
+    }
+  },
+  "TemplateDeliveryIntegrationInvalid": {
+    "status": 400,
+    "code": 4000101,
+    "error": "template_delivery_integration_invalid",
+    "description": {
+      "en": "Delivery method for integration option is not valid."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1104,6 +1127,9 @@
     "INVALID_FILTER_OPTION": "InvalidFilterOption",
     "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection",
     "XLS_COLUMN_LIMITATION": "XlsColumnLimitation",
-    "COLLECTION_USED_IN_TRANSFORMATION" :"CollectionUsedInTransformation"
+    "COLLECTION_USED_IN_TRANSFORMATION" :"CollectionUsedInTransformation",
+    "TEMPLATE_DELIVERY_INVALID": "TemplateDeliveryInvalid",  
+    "TEMPLATE_DELIVERY_FILE_INVALID": "TemplateDeliveryFileInvalid",  
+    "TEMPLATE_DELIVERY_INTEGRATION_INVALID": "TemplateDeliveryIntegrationInvalid"  
   }
 }
