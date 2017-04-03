@@ -1052,6 +1052,14 @@
       "en": "The status provided is invalid."
     }
   },
+  "HookSubscriptionIsNotActivated": {
+    "status": 400,
+    "code": 4000107,
+    "error": "hook_subscription_is_not_activated",
+    "description": {
+      "en": "The subscription is not activated yet."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1184,6 +1192,7 @@
     "HOOK_SUBSCRIPTION_EXISTS":"HookSubscriptionExists",
     "UNSUPPORTED_HOOK_EVENT_NAME":"UnsupportedHookEventName",
     "INVALID_URL":"InvalidUrl",
-    "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus"
+    "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus",
+    "HOOK_SUBSCRIPTION_IS_NOT_ACTIVATED": "HookSubscriptionIsNotActivated"
   }
 }
