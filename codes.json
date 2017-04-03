@@ -1044,6 +1044,14 @@
       "en": "The URL provided is invalid."
     }
   },
+  "InvalidHookSubscriptionStatus": {
+    "status": 400,
+    "code": 4000106,
+    "error": "invalid_hook_subscription_status",
+    "description": {
+      "en": "The status provided is invalid."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1175,6 +1183,7 @@
     "INVALID_BATCH_SIZE":"InvalidBatchSize",
     "HOOK_SUBSCRIPTION_EXISTS":"HookSubscriptionExists",
     "UNSUPPORTED_HOOK_EVENT_NAME":"UnsupportedHookEventName",
-    "INVALID_URL":"InvalidUrl"
+    "INVALID_URL":"InvalidUrl",
+    "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus"
   }
 }
