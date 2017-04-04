@@ -1060,6 +1060,14 @@
       "en": "The subscription is not activated yet."
     }
   },
+  "CollectionIdRequired": {
+    "status": 400,
+    "code": 4000108,
+    "error": "collection_id_required",
+    "description": {
+      "en": "Collection id is a required argument."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1193,6 +1201,7 @@
     "UNSUPPORTED_HOOK_EVENT_NAME":"UnsupportedHookEventName",
     "INVALID_URL":"InvalidUrl",
     "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus",
-    "HOOK_SUBSCRIPTION_IS_NOT_ACTIVATED": "HookSubscriptionIsNotActivated"
+    "HOOK_SUBSCRIPTION_IS_NOT_ACTIVATED": "HookSubscriptionIsNotActivated",
+    "COLLECTION_ID_REQUIRED": "CollectionIdRequired"
   }
 }
