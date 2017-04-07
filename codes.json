@@ -209,7 +209,7 @@
       "en": "The number of images provided exceeds the number permitted for a single record.  Please delete some images and try again."
     }
   },
-  "UnknownCSVError" : {
+  "UnknownCSVError": {
     "status": 413,
     "code": 4000022,
     "error": "unknown_csv_error",
@@ -233,7 +233,7 @@
       "en": "The columns of this file do not match the columns for this group.  Please try again."
     }
   },
-  "CsvHeaderExtraction":{
+  "CsvHeaderExtraction": {
     "status": 400,
     "code": 4000025,
     "error": "csv_header_extraction",
@@ -241,7 +241,7 @@
       "en": "An error occured when extracting the headers from the CSV provided.  Please try again."
     }
   },
-  "CsvMissingColumn":{
+  "CsvMissingColumn": {
     "status": 400,
     "code": 4000026,
     "error": "csv_missing_column",
@@ -249,7 +249,7 @@
       "en": "The rows do not have all the required columns defined by the headers in your file. Please try again."
     }
   },
-  "InvalidEmail":{
+  "InvalidEmail": {
     "status": 400,
     "code": 4000027,
     "error": "invalid_email",
@@ -257,7 +257,7 @@
       "en": "The email address you provided is invalid. Please try entering it again or use a different email address."
     }
   },
-  "InvitationInvalidToken":{
+  "InvitationInvalidToken": {
     "status": 400,
     "code": 4000029,
     "error": "invitation_token_invalid",
@@ -265,7 +265,7 @@
       "en": "It looks like this invite is invalid. Please have the partner who invited you to join Venzee, invite you again."
     }
   },
-  "InvitationTokenExpired":{
+  "InvitationTokenExpired": {
     "status": 400,
     "code": 4000035,
     "error": "invitation_token_expired",
@@ -273,7 +273,7 @@
       "en": "It looks like this invite has been used. Please login or have the user who registered on Venzee, invite you as a user."
     }
   },
-  "InvalidPartnership":{
+  "InvalidPartnership": {
     "status": 400,
     "code": 4000030,
     "error": "invalid_partnership",
@@ -308,7 +308,7 @@
     },
     "status": 400
   },
-  "CsvRecordIdDuplicated":{
+  "CsvRecordIdDuplicated": {
     "status": 400,
     "code": 4000034,
     "error": "record_id_duplicated_in_csv_file",
@@ -956,7 +956,7 @@
       "en": "Some groups not exists."
     }
   },
-    "InvalidFilterOption": {
+  "InvalidFilterOption": {
     "status": 400,
     "code": 4000095,
     "error": "invalid_filter_option",
@@ -987,7 +987,7 @@
     "description": {
       "en": "Collection should not be used in transformation."
     }
-  }, 
+  },
   "TemplateDeliveryInvalid": {
     "status": 400,
     "code": 4000099,
@@ -1068,6 +1068,14 @@
       "en": "Collection id is a required argument."
     }
   },
+  "ExportLimitExceeded": {
+    "status": 400,
+    "code": 4000109,
+    "error": "export_limit_exceeded",
+    "description": {
+      "en": "Allowed export limit exceeded."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1110,50 +1118,50 @@
     "ARGUMENTS_MISSED_CONTACT_FORM": "ArgumentsMissedContactForm",
     "INVALID_CSV_FORMAT": "InvalidCSVFormat",
     "RESOURCE_ALREADY_EXIST": "ResourceAlreadyExist",
-    "ALREADY_PARTNER":"AlreadyPartner",
-    "INVALID_PARTNERSHIP":"InvalidPartnership",
-    "CANNOT_INVITE_YOURSELF":"CanNotInviteYourself",
-    "INVALID_PRIVACY":"InvalidPrivacy",
-    "MISSING_GROUPS_NAMES":"MissingGroupsNames",
-    "STRIPE_INCORRECT_NUMBER":"StripeIncorrectNumber",
-    "STRIPE_INVALID_NUMBER":"StripeInvalidNumber",
-    "STRIPE_INVALID_EXPIRY_MONTH":"StripeInvalidExpiryMonth",
-    "STRIPE_INVALID_EXPIRY_YEAR":"StripeInvalidExpiryYear",
-    "STRIPE_INVALID_CVC":"StripeInvalidCvc",
-    "STRIPE_EXPIRED_CARD":"StripeExpiredCard",
-    "STRIPE_INCORRECT_CVC":"StripeIncorrectCvc",
-    "STRIPE_INCORRECT_ZIP":"StripeIncorrectZip",
-    "STRIPE_CARD_DECLINED":"StripeCardDeclined",
-    "STRIPE_MISSING":"StripeMissing",
-    "STRIPE_PROCESSING_ERROR":"StripeProcessingError",
-    "STRIPE_RATE_LIMIT":"StripeRateLimit",
+    "ALREADY_PARTNER": "AlreadyPartner",
+    "INVALID_PARTNERSHIP": "InvalidPartnership",
+    "CANNOT_INVITE_YOURSELF": "CanNotInviteYourself",
+    "INVALID_PRIVACY": "InvalidPrivacy",
+    "MISSING_GROUPS_NAMES": "MissingGroupsNames",
+    "STRIPE_INCORRECT_NUMBER": "StripeIncorrectNumber",
+    "STRIPE_INVALID_NUMBER": "StripeInvalidNumber",
+    "STRIPE_INVALID_EXPIRY_MONTH": "StripeInvalidExpiryMonth",
+    "STRIPE_INVALID_EXPIRY_YEAR": "StripeInvalidExpiryYear",
+    "STRIPE_INVALID_CVC": "StripeInvalidCvc",
+    "STRIPE_EXPIRED_CARD": "StripeExpiredCard",
+    "STRIPE_INCORRECT_CVC": "StripeIncorrectCvc",
+    "STRIPE_INCORRECT_ZIP": "StripeIncorrectZip",
+    "STRIPE_CARD_DECLINED": "StripeCardDeclined",
+    "STRIPE_MISSING": "StripeMissing",
+    "STRIPE_PROCESSING_ERROR": "StripeProcessingError",
+    "STRIPE_RATE_LIMIT": "StripeRateLimit",
     "STRIPE_SUBSCRIPTION_INVALID": "StripeSubscriptionInvalid",
-    "STRIPE_NOT_IN_TRIAL":"StripeNotInTrail",
+    "STRIPE_NOT_IN_TRIAL": "StripeNotInTrail",
     "GROUP_NAME_ALREADY_EXISTS": "GroupNameAlreadyExists",
-    "STRIPE_PAID_PLAN_ARGUMENTS_MISSING":"StripePaidPlanArgumentsMissing",
+    "STRIPE_PAID_PLAN_ARGUMENTS_MISSING": "StripePaidPlanArgumentsMissing",
     "PERMISSION_ERROR": "PermissionError",
     "CLIENT_ID_SECRET_ERROR": "ClientIdSecretError",
     "INVALID_APP_STATUS": "Invalid_App_Status",
     "INVALID_APP_TYPE": "Invalid_App_Type",
-    "INVALID_USER_ORG_RELATIONSHIP":"InvalidUserOrgRelationship",
+    "INVALID_USER_ORG_RELATIONSHIP": "InvalidUserOrgRelationship",
     "APPLICATION_DISABLED": "ApplicationDisabled",
     "UPGRADE_NEEDED": "UpgradeNeeded",
-    "TOO_MANY_INTEGRATIONS":"TooManyIntegrations",
-    "CSV_MISSING_RECORD_ID":"CsvMissingRecordId",
-    "NOTHING_TO_EXPORT":"NothingToExport",
-    "USER_ALREADY_EXISTS":"UserAlreadyExists",
-    "USER_ALREADY_BELONGS_TO_INVITE_ORG":"UserAlreadyBelongsToInviteOrg",
+    "TOO_MANY_INTEGRATIONS": "TooManyIntegrations",
+    "CSV_MISSING_RECORD_ID": "CsvMissingRecordId",
+    "NOTHING_TO_EXPORT": "NothingToExport",
+    "USER_ALREADY_EXISTS": "UserAlreadyExists",
+    "USER_ALREADY_BELONGS_TO_INVITE_ORG": "UserAlreadyBelongsToInviteOrg",
     "USER_IS_NOT_AUTHORIZED_TO_USE_BILLING": "UserIsNotAuthorizedToUseBilling",
     "CAN_NOT_CHANGE_SELF_ROLE": "CanNotChangeSelfRole",
     "MUST_BE_AT_LEAST_ONE_ADMIN": "MustBeAtLeastOneAdminPerOrg",
     "INVALID_COLLECTION_MAPPING": "InvalidCollectionMapping",
-    "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY":"InvalidEmailNotificationsFrequency",
+    "INVALID_EMAIL_NOTIFICATIONS_FREQUENCY": "InvalidEmailNotificationsFrequency",
     "USER_DOES_NOT_BELONG_TO_ORG": "UserDoesNotBelongToOrg",
     "CAN_NOT_ACCEPT_INVITATION_WITH_SAME_ORG": "CanNotAcceptInvitationWithSameOrg",
     "MISSING_CUSTOM_EMAIL_SUBJECT": "MissingCustomEmailSubject",
     "MISSING_CUSTOM_EMAIL_MESSAGE": "MissingCustomEmailMessage",
     "EMPTY_RECORD_BATCH": "EmptyRecordBatch ",
-    "RECORD_BATCH_LIMIT" : "RecordBatchLimit",
+    "RECORD_BATCH_LIMIT": "RecordBatchLimit",
     "INVALID_RECORD_DATA_TYPE": "InvalidRecordDataType",
     "RECORDID_REQUIRED": "RecordIdRequired",
     "RECORD_ID_DUPLICATED": "RecordIdDuplicated",
@@ -1161,7 +1169,7 @@
     "INVALID_RECORD_PROPERTY": "InvalidRecordProperty",
     "INVALID_NOTIFICATION_TEMPLATE": "InvalidNotificationTemplate",
     "ENV_VAR_MISSING": "EnvironmentVariableMissing",
-    "INVALID_MAPMONITORING_TYPE":"InvalidMapMonitoringType",
+    "INVALID_MAPMONITORING_TYPE": "InvalidMapMonitoringType",
     "INVALID_MAPMONITORING_STATUS": "InvalidMapMonitoringStatus",
     "INVALID_EXPORTING_FORMAT": "InvalidExportingFormat",
     "EMAIL_ALREADY_UNSUBSCRIBED": "EmailAlreadyUnsubscribed",
@@ -1179,7 +1187,7 @@
     "TRANSFORM_CIRCULAR_DEPENDENCY": "TransformCircularDependency",
     "RECORD_ID_UNDEFINED": "RecordIdUndefined",
     "EMPTY_COLLECTION_LIST": "EmptyCollectionList",
-    "COLLECTION_SHARED" :"CollectionShared",
+    "COLLECTION_SHARED": "CollectionShared",
     "BAD_REQUEST": "BadRequest",
     "UNAUTHORIZED_API_ACCESS": "UnauthorizedApiAccess",
     "METHOD_NOT_ALLOWED": "MethodNotAllowed",
@@ -1190,18 +1198,19 @@
     "GROUPS_NOT_EXISTS": "GroupsNotExists",
     "CONSTANTS": "constants",
     "INVALID_FILTER_OPTION": "InvalidFilterOption",
-    "MISSING_INPUT_OUTPUT_COLLECTION":"MissingInputOrOutputCollection",
+    "MISSING_INPUT_OUTPUT_COLLECTION": "MissingInputOrOutputCollection",
     "XLS_COLUMN_LIMITATION": "XlsColumnLimitation",
-    "COLLECTION_USED_IN_TRANSFORMATION" :"CollectionUsedInTransformation",
-    "TEMPLATE_DELIVERY_INVALID": "TemplateDeliveryInvalid",  
-    "TEMPLATE_DELIVERY_FILE_INVALID": "TemplateDeliveryFileInvalid",  
+    "COLLECTION_USED_IN_TRANSFORMATION": "CollectionUsedInTransformation",
+    "TEMPLATE_DELIVERY_INVALID": "TemplateDeliveryInvalid",
+    "TEMPLATE_DELIVERY_FILE_INVALID": "TemplateDeliveryFileInvalid",
     "TEMPLATE_DELIVERY_INTEGRATION_INVALID": "TemplateDeliveryIntegrationInvalid",
-    "INVALID_BATCH_SIZE":"InvalidBatchSize",
-    "HOOK_SUBSCRIPTION_EXISTS":"HookSubscriptionExists",
-    "UNSUPPORTED_HOOK_EVENT_NAME":"UnsupportedHookEventName",
-    "INVALID_URL":"InvalidUrl",
+    "INVALID_BATCH_SIZE": "InvalidBatchSize",
+    "HOOK_SUBSCRIPTION_EXISTS": "HookSubscriptionExists",
+    "UNSUPPORTED_HOOK_EVENT_NAME": "UnsupportedHookEventName",
+    "INVALID_URL": "InvalidUrl",
     "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus",
     "HOOK_SUBSCRIPTION_IS_NOT_ACTIVATED": "HookSubscriptionIsNotActivated",
-    "COLLECTION_ID_REQUIRED": "CollectionIdRequired"
+    "COLLECTION_ID_REQUIRED": "CollectionIdRequired",
+    "EXPORT_LIMIT_EXCEEDED": "ExportLimitExceeded"
   }
 }
