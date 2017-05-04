@@ -1076,6 +1076,22 @@
       "en": "Allowed export limit exceeded."
     }
   },
+  "WebhookDisabled": {
+    "status": 400,
+    "code": 4000110,
+    "error": "webhook_disabled",
+    "description": {
+      "en": "Webhook integration/subscription is inactive."
+    }
+  },
+  "WebhookInitPushAlreadyRequested": {
+    "status": 400,
+    "code": 4000110,
+    "error": "webhook_init_push_already_requested",
+    "description": {
+      "en": "An initial push can only be requested once per webhook Subscription."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1211,6 +1227,8 @@
     "INVALID_HOOK_SUBSCRIPTION_STATUS": "InvalidHookSubscriptionStatus",
     "HOOK_SUBSCRIPTION_IS_NOT_ACTIVATED": "HookSubscriptionIsNotActivated",
     "COLLECTION_ID_REQUIRED": "CollectionIdRequired",
-    "EXPORT_LIMIT_EXCEEDED": "ExportLimitExceeded"
+    "EXPORT_LIMIT_EXCEEDED": "ExportLimitExceeded",
+    "WEBHOOK_DISABLED": "WebhookDisabled",
+    "WEBHOOK_INIT_PUSH_ALREADY_REQUESTED": "WebhookInitPushAlreadyRequested"
   }
 }
