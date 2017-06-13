@@ -1092,6 +1092,38 @@
       "en": "An initial push can only be requested once per webhook Subscription."
     }
   },
+  "CollectionBelongOtherBatch": {
+    "status": 400,
+    "code": 4000110,
+    "error": "collection_belong_other_batch",
+    "description": {
+      "en": "some collection belong to other batch."
+    }
+  },
+  "MissingInputData": {
+    "status": 400,
+    "code": 4000110,
+    "error": "missing_input_data",
+    "description": {
+      "en": "missing some input data."
+    }
+  },
+  "ImposibleEditBatch": {
+    "status": 400,
+    "code": 4000110,
+    "error": "imposible_edit_batch",
+    "description": {
+      "en": "imposible edit the batch."
+    }
+  },
+  "BatchCollectionsDuplicated": {
+    "status": 400,
+    "code": 4000110,
+    "error": "batch_collections_duplicated",
+    "description": {
+      "en": "collections are duplicated."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1229,6 +1261,10 @@
     "COLLECTION_ID_REQUIRED": "CollectionIdRequired",
     "EXPORT_LIMIT_EXCEEDED": "ExportLimitExceeded",
     "WEBHOOK_DISABLED": "WebhookDisabled",
-    "WEBHOOK_INIT_PUSH_ALREADY_REQUESTED": "WebhookInitPushAlreadyRequested"
+    "WEBHOOK_INIT_PUSH_ALREADY_REQUESTED": "WebhookInitPushAlreadyRequested",
+    "COLLECTION_BELONG_OTHER_BATCH": "CollectionBelongOtherBatch",
+    "MISSING_INPUT_DATA": "MissingInputData",
+    "IMPOSIBLE_EDIT_BATCH": "ImposibleEditBatch",
+    "BATCH_COLLECTIONS_DUPLICATED": "BatchCollectionsDuplicated"
   }
 }
