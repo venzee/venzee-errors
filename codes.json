@@ -1132,6 +1132,15 @@
       "en": "the template have missing custom configuration."
     }
   },
+  "ExternalApiUnknownError": {
+    "status": 400,
+    "code": 4000117,
+    "error": "external_api_unknown_error",
+    "description": {
+      "en": "the external api return an unknown error."
+    }
+  },
+
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1274,6 +1283,7 @@
     "MISSING_INPUT_DATA": "MissingInputData",
     "IMPOSIBLE_EDIT_BATCH": "ImposibleEditBatch",
     "BATCH_COLLECTIONS_DUPLICATED": "BatchCollectionsDuplicated",
-    "TEMPLATE_MISSING_CUSTOMCONFIG": "TemplateMissingCustomConfig"
+    "TEMPLATE_MISSING_CUSTOMCONFIG": "TemplateMissingCustomConfig",
+    "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError"
   }
 }
