@@ -1140,7 +1140,14 @@
       "en": "the external api return an unknown error."
     }
   },
-
+  "BatchEmpty": {
+    "status": 400,
+    "code": 4000118,
+    "error": "batch_empty",
+    "description": {
+      "en": "the batch is empty."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1284,6 +1291,7 @@
     "IMPOSIBLE_EDIT_BATCH": "ImposibleEditBatch",
     "BATCH_COLLECTIONS_DUPLICATED": "BatchCollectionsDuplicated",
     "TEMPLATE_MISSING_CUSTOMCONFIG": "TemplateMissingCustomConfig",
-    "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError"
+    "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError",
+    "BATCH_EMPTY": "BatchEmpty"
   }
 }
