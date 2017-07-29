@@ -198,7 +198,7 @@
     "code": 4000020,
     "error": "file_size_not_allowed",
     "description": {
-      "en": "The file name you provided is too long. Please try shortening the name and try again."
+      "en": "The file size is over the limit. Please provide another file."
     }
   },
   "ExceededImageNumberPerRecord": {
