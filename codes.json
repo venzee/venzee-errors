@@ -1149,7 +1149,7 @@
     }
   },
   "SizeExceedsLimit": {
-    "status": 400,
+    "status": 413,
     "code": 4000119,
     "error": "size_exceeds_limit",
     "description": {
