@@ -1148,6 +1148,14 @@
       "en": "the batch is empty."
     }
   },
+  "SizeExceedsLimit": {
+    "status": 413,
+    "code": 4000119,
+    "error": "size_exceeds_limit",
+    "description": {
+      "en": "File size is too big."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1292,6 +1300,7 @@
     "BATCH_COLLECTIONS_DUPLICATED": "BatchCollectionsDuplicated",
     "TEMPLATE_MISSING_CUSTOMCONFIG": "TemplateMissingCustomConfig",
     "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError",
-    "BATCH_EMPTY": "BatchEmpty"
+    "BATCH_EMPTY": "BatchEmpty",
+    "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit"
   }
 }
