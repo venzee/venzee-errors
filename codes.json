@@ -1164,6 +1164,14 @@
       "en": "Invitation quota exceeded."
     }
   },
+  "CustomInvitesNotAllowed": {
+    "status": 403,
+    "code": 4000121,
+    "error": "custom_invites_not_allowed",
+    "description": {
+      "en": "Custom invites are not allowed for your account."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1310,7 +1318,7 @@
     "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError",
     "BATCH_EMPTY": "BatchEmpty",
     "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit",
-    "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds"
-
+    "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds",
+    "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed"
   }
 }
