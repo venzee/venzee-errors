@@ -1156,6 +1156,14 @@
       "en": "File size is too big."
     }
   },
+  "InvitationQuotaExceeds": {
+    "status": 400,
+    "code": 4000120,
+    "error": "invitation_quota_exceeds",
+    "description": {
+      "en": "Invitation quota exceeds."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1301,6 +1309,8 @@
     "TEMPLATE_MISSING_CUSTOMCONFIG": "TemplateMissingCustomConfig",
     "EXTERNALAPIUNKNOWNERROR": "ExternalApiUnknownError",
     "BATCH_EMPTY": "BatchEmpty",
-    "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit"
+    "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit",
+    "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds"
+
   }
 }
