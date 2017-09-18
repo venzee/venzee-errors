@@ -1161,7 +1161,7 @@
     "code": 4000120,
     "error": "invitation_quota_exceeds",
     "description": {
-      "en": "Invitation quota exceeds."
+      "en": "Invitation quota exceeded."
     }
   },
   "constants": {
