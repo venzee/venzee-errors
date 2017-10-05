@@ -1172,6 +1172,14 @@
       "en": "Custom invites are not allowed for your account."
     }
   },
+  "FieldSizeExceeded": {
+    "status": 400,
+    "code": 4000122,
+    "error": "field_size_exceeded",
+    "description": {
+      "en": "Allowed field size exceeded."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1319,6 +1327,7 @@
     "BATCH_EMPTY": "BatchEmpty",
     "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit",
     "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds",
-    "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed"
-  }
+    "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed",
+    "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit"
+.  }
 }
