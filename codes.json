@@ -1328,6 +1328,6 @@
     "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit",
     "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds",
     "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed",
-    "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit"
+    "FIELD_SIZE_EXCEEDED": "FieldSizeExceeded"
 .  }
 }
