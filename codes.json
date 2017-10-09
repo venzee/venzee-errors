@@ -1180,6 +1180,14 @@
       "en": "Allowed field size exceeded."
     }
   },
+  "BatchIdError": {
+    "status": 400,
+    "code": 4000123,
+    "error": "batch_id_error",
+    "description": {
+      "en": "the unique identification to batch returned an unknown error."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1328,6 +1336,7 @@
     "SIZE_EXCEEDS_LIMIT": "SizeExceedsLimit",
     "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds",
     "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed",
-    "FIELD_SIZE_EXCEEDED": "FieldSizeExceeded"
+    "FIELD_SIZE_EXCEEDED": "FieldSizeExceeded",
+    "BATCH_ID_ERROR": "BatchIdError"
   }
 }
