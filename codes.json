@@ -1188,6 +1188,14 @@
       "en": "the unique identification to batch returned an unknown error."
     }
   },
+  "SolutionNotAllowed": {
+    "status": 400,
+    "code": 4000124,
+    "error": "solution_not_allowed",
+    "description": {
+      "en": "Organization Plan is not allowed to perform an export using the solution."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1337,6 +1345,7 @@
     "INVITATION_QUOTA_EXCEEDS": "InvitationQuotaExceeds",
     "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed",
     "FIELD_SIZE_EXCEEDED": "FieldSizeExceeded",
-    "BATCH_ID_ERROR": "BatchIdError"
+    "BATCH_ID_ERROR": "BatchIdError",
+    "SOLUTION_NOT_ALLOWED": "SolutionNotAllowed"
   }
 }
