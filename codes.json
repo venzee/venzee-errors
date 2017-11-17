@@ -1196,6 +1196,14 @@
       "en": "Organization Plan is not allowed to perform an export using the solution."
     }
   },
+  "FileNameRuleAlreadyExists": {
+    "status": 409,
+    "code": 4000125,
+    "error": "file_name_rule_already_exists",
+    "description": {
+      "en": "Identifier already exists in our system. Selection must be unique."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1316,7 +1324,6 @@
     "INTEGRATION_SERVICE_DOWN": "IntegrationServiceDown",
     "VENDOR_EMAIL_ATTACHMENT_INVALID": "VendorEmailInvalidAttachment",
     "GROUPS_NOT_EXISTS": "GroupsNotExists",
-    "CONSTANTS": "constants",
     "INVALID_FILTER_OPTION": "InvalidFilterOption",
     "MISSING_INPUT_OUTPUT_COLLECTION": "MissingInputOrOutputCollection",
     "XLS_COLUMN_LIMITATION": "XlsColumnLimitation",
@@ -1346,6 +1353,8 @@
     "CUSTOM_INVITES_NOT_ALLOWED": "CustomInvitesNotAllowed",
     "FIELD_SIZE_EXCEEDED": "FieldSizeExceeded",
     "BATCH_ID_ERROR": "BatchIdError",
-    "SOLUTION_NOT_ALLOWED": "SolutionNotAllowed"
+    "SOLUTION_NOT_ALLOWED": "SolutionNotAllowed",
+    "FILE_NAME_RULE_ALREADY_EXISTS": "FileNameRuleAlreadyExists",
+    "CONSTANTS": "constants"
   }
 }
