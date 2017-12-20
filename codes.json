@@ -1204,6 +1204,14 @@
       "en": "Identifier already exists in our system. Selection must be unique."
     }
   },
+  "InvalidImageColumnsValue": {
+    "status": 400,
+    "code": 4000126,
+    "error": "invalid_image_columns_value",
+    "description": {
+      "en": "imageColumns value is not valid."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1355,6 +1363,7 @@
     "BATCH_ID_ERROR": "BatchIdError",
     "SOLUTION_NOT_ALLOWED": "SolutionNotAllowed",
     "FILE_NAME_RULE_ALREADY_EXISTS": "FileNameRuleAlreadyExists",
+    "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "CONSTANTS": "constants"
   }
 }
