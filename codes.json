@@ -1212,6 +1212,14 @@
       "en": "imageColumns value is not valid."
     }
   },
+  "InvalidDownloadType": {
+    "status": 400,
+    "code": 4000127,
+    "error": "invalid_download_type",
+    "description": {
+      "en": "Type value not allowed."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1364,6 +1372,7 @@
     "SOLUTION_NOT_ALLOWED": "SolutionNotAllowed",
     "FILE_NAME_RULE_ALREADY_EXISTS": "FileNameRuleAlreadyExists",
     "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
+    "INVALID_DOWNLOAD_TYPE": "InvalidDownloadType",
     "CONSTANTS": "constants"
   }
 }
