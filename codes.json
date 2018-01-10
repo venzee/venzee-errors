@@ -1220,6 +1220,14 @@
       "en": "Type value not allowed."
     }
   },
+  "AlternativeLoginNeedIt": {
+    "status": 406,
+    "code": 4000128,
+    "error": "alternative_login_need_it",
+    "description": {
+      "en": "Alternative login need it."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1373,6 +1381,7 @@
     "FILE_NAME_RULE_ALREADY_EXISTS": "FileNameRuleAlreadyExists",
     "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "INVALID_DOWNLOAD_TYPE": "InvalidDownloadType",
+    "ALTERNATIVE_LOGIN_NEED_IT": "AlternativeLoginNeedIt",
     "CONSTANTS": "constants"
   }
 }
