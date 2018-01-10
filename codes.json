@@ -1381,7 +1381,7 @@
     "FILE_NAME_RULE_ALREADY_EXISTS": "FileNameRuleAlreadyExists",
     "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "INVALID_DOWNLOAD_TYPE": "InvalidDownloadType",
-    "ALTERNATIVE_LOGIN_NEED_IT","AlternativeLoginNeedIt",
+    "ALTERNATIVE_LOGIN_NEED_IT": "AlternativeLoginNeedIt",
     "CONSTANTS": "constants"
   }
 }
