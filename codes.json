@@ -12,7 +12,7 @@
     "code": 4000012,
     "error": "collection_name_already_exist",
     "description": {
-      "en": "The collection name you provided already exists. Please provide a new collection name."
+      "en": "The product list name you provided already exists. Please provide a new product list name."
     }
   },
   "EmailAlreadyInUse": {
@@ -1228,6 +1228,70 @@
       "en": "Alternative login need it."
     }
   },
+  "uniqueIdentifierAttributeKeyDuplicated": {
+    "status": 409,
+    "code": 4000129,
+    "error": "unique_identifier_attr_key_duplicated",
+    "description": {
+      "en": "uniqueIdentifierAttributeKey and parentId need to be different."
+    }
+  },
+  "uniqueIdentifierAttributeKeyExclude": {
+    "status": 409,
+    "code": 4000130,
+    "error": "unique_identifier_attr_key_exlude",
+    "description": {
+      "en": "imposible to exclude the uniqueIdentifierAttributeKey."
+    }
+  },
+  "invalidTypeList": {
+    "status": 400,
+    "code": 4000131,
+    "error": "invalid_type_list",
+    "description": {
+      "en": "invalid type list only allow static or dynamic."
+    }
+  },
+  "imageNotFound": {
+    "status": 400,
+    "code": 4000132,
+    "error": "image_not_found",
+    "description": {
+      "en": "invalid image url."
+    }
+  },
+  "imageInvalidFormat": {
+    "status": 400,
+    "code": 4000133,
+    "error": "image_invalid_format",
+    "description": {
+      "en": "invalid image format."
+    }
+  },
+  "invalidActionType": {
+    "status": 400,
+    "code": 4000134,
+    "error": "invalid_acction_type",
+    "description": {
+      "en": "Action parameter should be 'exclude' or 'include'."
+    }
+  },
+  "invalidDownloadType": {
+    "status": 400,
+    "code": 4000135,
+    "error": "invalid_download_type",
+    "description": {
+      "en": "Type parameter should be 'items' or 'images'."
+    }
+  },
+  "invalidExtensionType": {
+    "status": 400,
+    "code": 4000136,
+    "error": "invalid_extension_type",
+    "description": {
+      "en": "Extension parameter should be 'xls' or 'xlsx' or 'csv'."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1382,6 +1446,15 @@
     "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "INVALID_DOWNLOAD_TYPE": "InvalidDownloadType",
     "ALTERNATIVE_LOGIN_NEED_IT": "AlternativeLoginNeedIt",
-    "CONSTANTS": "constants"
+    "CONSTANTS": "constants",
+    "UNIQUEIDENTIFIERATTRIBUTEKEY_DUPLICATED": "uniqueIdentifierAttributeKeyDuplicated",
+    "UNIQUEIDENTIFIERATTRIBUTEKEY_EXCLUDE": "uniqueIdentifierAttributeKeyExclude",
+    "INVALID_TYPE_LIST": "invalidTypeList",
+    "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
+    "IMAGE_NOT_FOUND": "imageNotFound",
+    "INVALID_IMAGE_FORMAT": "imageInvalidFormat",
+    "INVALID_ACTION_TYPE": "invalidActionType",
+    "INVALID_DOWNLOAD_TYPE": "invalidDownloadType",
+    "INVALID_EXTENSION_TYPE": "invalidExtensionType"
   }
 }
