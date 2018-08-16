@@ -1292,6 +1292,30 @@
       "en": "Extension parameter should be 'xls' or 'xlsx' or 'csv'."
     }
   },
+  "UnexistentWidgetRuleType": {
+    "status": 406,
+    "code": 4000137,
+    "error": "unexistent_widget_rule_type",
+    "description": {
+      "en": "It is required to provide a widget rule type."
+    }
+  },
+  "InvalidWidgetRuleType": {
+    "status": 406,
+    "code": 4000138,
+    "error": "invalid_widget_rule_type",
+    "description": {
+      "en": "It is required to provide a valid widget rule type."
+    }
+  },
+  "InvalidWidgetRuleStructure": {
+    "status": 406,
+    "code": 4000139,
+    "error": "invalid_widget_rule_structure",
+    "description": {
+      "en": "There are issues with some of the widget rule structures."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1450,11 +1474,12 @@
     "UNIQUEIDENTIFIERATTRIBUTEKEY_DUPLICATED": "uniqueIdentifierAttributeKeyDuplicated",
     "UNIQUEIDENTIFIERATTRIBUTEKEY_EXCLUDE": "uniqueIdentifierAttributeKeyExclude",
     "INVALID_TYPE_LIST": "invalidTypeList",
-    "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "IMAGE_NOT_FOUND": "imageNotFound",
     "INVALID_IMAGE_FORMAT": "imageInvalidFormat",
     "INVALID_ACTION_TYPE": "invalidActionType",
-    "INVALID_DOWNLOAD_TYPE": "invalidDownloadType",
-    "INVALID_EXTENSION_TYPE": "invalidExtensionType"
+    "INVALID_EXTENSION_TYPE": "invalidExtensionType",
+    "UNEXISTENT_WIDGET_TYPE": "UnexistentWidgetType",
+    "INVALID_WIDGET_TYPE": "InvalidWidgetType",
+    "INVALID_WIDGET_STRUCTURE": "InvalidWidgetStructure"
   }
 }
