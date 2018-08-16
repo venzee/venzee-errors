@@ -1450,11 +1450,8 @@
     "UNIQUEIDENTIFIERATTRIBUTEKEY_DUPLICATED": "uniqueIdentifierAttributeKeyDuplicated",
     "UNIQUEIDENTIFIERATTRIBUTEKEY_EXCLUDE": "uniqueIdentifierAttributeKeyExclude",
     "INVALID_TYPE_LIST": "invalidTypeList",
-    "INVALID_IMAGE_COLUMNS_VALUE": "InvalidImageColumnsValue",
     "IMAGE_NOT_FOUND": "imageNotFound",
     "INVALID_IMAGE_FORMAT": "imageInvalidFormat",
     "INVALID_ACTION_TYPE": "invalidActionType",
-    "INVALID_DOWNLOAD_TYPE": "invalidDownloadType",
-    "INVALID_EXTENSION_TYPE": "invalidExtensionType"
   }
 }
