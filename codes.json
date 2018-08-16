@@ -1478,8 +1478,8 @@
     "INVALID_IMAGE_FORMAT": "imageInvalidFormat",
     "INVALID_ACTION_TYPE": "invalidActionType",
     "INVALID_EXTENSION_TYPE": "invalidExtensionType",
-    "UNEXISTENT_WIDGET_TYPE": "UnexistentWidgetType",
-    "INVALID_WIDGET_TYPE": "InvalidWidgetType",
-    "INVALID_WIDGET_STRUCTURE": "InvalidWidgetStructure"
+    "UNEXISTENT_WIDGET_RULE_TYPE": "UnexistentWidgetRuleType",
+    "INVALID_WIDGET_RULE_TYPE": "InvalidWidgetRuleType",
+    "INVALID_WIDGET_RULE_STRUCTURE": "InvalidWidgetRuleStructure"
   }
 }
