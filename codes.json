@@ -1316,6 +1316,14 @@
       "en": "There are issues with some of the widget rule structures."
     }
   },
+  "needConfigurationObject": {
+    "status": 400,
+    "code": 4000140,
+    "error": "need_configuration_object",
+    "description": {
+      "en": "You need to provide a configuration object."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1480,6 +1488,7 @@
     "INVALID_EXTENSION_TYPE": "invalidExtensionType",
     "UNEXISTENT_WIDGET_RULE_TYPE": "UnexistentWidgetRuleType",
     "INVALID_WIDGET_RULE_TYPE": "InvalidWidgetRuleType",
-    "INVALID_WIDGET_RULE_STRUCTURE": "InvalidWidgetRuleStructure"
+    "INVALID_WIDGET_RULE_STRUCTURE": "InvalidWidgetRuleStructure",
+    "NEED_CONFIGURATION_OBJECT": "needConfigurationObject"
   }
 }
