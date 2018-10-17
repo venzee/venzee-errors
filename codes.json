@@ -1324,6 +1324,14 @@
       "en": "You need to provide a configuration object."
     }
   },
+  "uniqueIdentifierAttributeKeyEmpty": {
+    "status": 400,
+    "code": 4000140,
+    "error": "unique_identifier_attribute_key_empty",
+    "description": {
+      "en": "You need to provide a valid uniqueIdentifierAttributeKey."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -1489,6 +1497,7 @@
     "UNEXISTENT_WIDGET_RULE_TYPE": "UnexistentWidgetRuleType",
     "INVALID_WIDGET_RULE_TYPE": "InvalidWidgetRuleType",
     "INVALID_WIDGET_RULE_STRUCTURE": "InvalidWidgetRuleStructure",
-    "NEED_CONFIGURATION_OBJECT": "needConfigurationObject"
+    "NEED_CONFIGURATION_OBJECT": "needConfigurationObject",
+    "UNIQUEIDENTIFIERATTRIBUTEKEY_EMPTY": "uniqueIdentifierAttributeKeyEmpty"
   }
 }
