@@ -126,13 +126,7 @@ A few more examples await you in `example.js`!
 -----
 ### Adding new error codes
 
-```sh
-$ grunt new (Deprecated, please don't use it and follow the generating the error code from scratch above mamually)
-```
-
 You'll be prompted for an error code string, and a human-friendly message. The code will be added to `lib/codes.json`, with the next-available 400* series code number.
-
-![grunt new](grunt-new-example.png "grunt new")
 
 #### Options
 

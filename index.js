@@ -1,10 +1,8 @@
 'use strict';
 var util = require('util');
-var path = require('path');
 var statuses = require('statuses');
 var titleCase = require('title-case');
 var pascalCase = require('pascal-case');
-var debug = require('debug')('venzee-errors');
 
 /**
  *
@@ -61,11 +59,9 @@ var venzeeErrors = function venzeeErrors(str) {
     }
 
     statusMsg = statuses[status];
-    debug('status message is %s', statusMsg);
 
     if (!statusMsg) {
       statusMsg = errObj.message;
-      debug('status message was undefined; statusMsg: %s', statusMsg);
     }
 
     errObj.statusDescription = statusMsg;
@@ -73,7 +69,6 @@ var venzeeErrors = function venzeeErrors(str) {
       errObj.name = pascalCase(statusMsg);
     }
 
-    debug('errObj.name: %s', errObj.name);
     atId = '/errors/' + errObj.name;
 
     if (errObj.name === 'Error') {
